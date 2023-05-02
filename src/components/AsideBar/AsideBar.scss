@@ -1,0 +1,59 @@
+/* --------------------   SIDE BAR   -------------------- */
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.header__social>svg>path {
+    transition: fill var(--transition);
+}
+
+.header__social:hover>svg>path {
+    fill: var(--clr-accent);
+}
+
+.darkmode {
+    --clr-light: #fdffc4;
+    --clr-secondary: #00332a;
+    --clr-primary: #202302;
+    --clr-dark: #00100d;
+    --clr-accent: #ff7750;
+
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+
+    --text1: hsl(0, 0%, 100%);
+    --text2: hsl(0, 0%, 85%);
+}
+
+.dark-mode-toggle {
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 3px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.social__link {
+    display: none;
+}
+
+@media(min-width: 75.5em) {
+    .social__link {
+        display: flex;
+        position: fixed;
+        width: 100px;
+        top: 10%;
+        transform: translateY(50%);
+        flex-direction: column;
+        gap: 2.2rem;
+        padding: 2rem;
+        box-shadow: rgba(109, 109, 114, 0.7) 0 7px 29px 0;
+    }
+}
