@@ -1,48 +1,59 @@
-import './AsideBar.scss'
+import './AsideBar.scss';
+import React, { useState } from 'react';
 
 const AsideBar = () => {
 
-  const handleClick = () => {
-    console.log('i have been clicked')
-    
-//   // check for saved 'darkMode' in localStorage
-// let darkMode = localStorage.getItem('darkMode'); 
+  // const [theme, setTheme] = useState('light');
+  // const toggleTheme = () => {
 
-// const darkModeToggle = document.querySelector('#dark-mode-toggle');
+  //   if (theme === 'light') {
+  //     setTheme('dark');
+  //   } else {
+  //     setTheme('light')
+  //   }
 
-// const enableDarkMode = () => {
-//   // 1. Add the class to the body
-//   document.body.classList.add('darkmode');
-//   // 2. Update darkMode in localStorage
-//   localStorage.setItem('darkMode', 'enabled');
-// }
+  // }
 
-// const disableDarkMode = () => {
-//   // 1. Remove the class from the body
-//   document.body.classList.remove('darkmode');
-//   // 2. Update darkMode in localStorage 
-//   localStorage.setItem('darkMode', null);
-// }
+  const toggleTheme = () => {
+    // console.log('i have been clicked')
+  // check for saved 'darkMode' in localStorage
+let darkMode = localStorage.getItem('darkMode'); 
+
+const darkModeToggle = document.querySelector('#dark-mode-toggle');
+
+const enableDarkMode = () => {
+  // 1. Add the class to the body
+  document.body.classList.add('darkMode');
+  // 2. Update darkMode in localStorage
+  localStorage.setItem('darkMode', 'enabled');
+}
+
+const disableDarkMode = () => {
+  // 1. Remove the class from the body
+  document.body.classList.remove('darkMode');
+  // 2. Update darkMode in localStorage 
+  localStorage.setItem('darkMode', null);
+}
  
-// // If the user already visited and enabled darkMode
-// // start things off with it on
-// if (darkMode === 'enabled') {
-//   enableDarkMode();
-// }
+// If the user already visited and enabled darkMode
+// start things off with it on
+if (darkMode === 'enabled') {
+  enableDarkMode();
+}
 
-// // When someone clicks the button
-// darkModeToggle.addEventListener('click', () => {
-//   // get their darkMode setting
-//   darkMode = localStorage.getItem('darkMode'); 
+// When someone clicks the button
+darkModeToggle.addEventListener('click', () => {
+  // get their darkMode setting
+  darkMode = localStorage.getItem('darkMode'); 
   
-//   // if it not current enabled, enable it
-//   if (darkMode !== 'enabled') {
-//     enableDarkMode();
-//   // if it has been enabled, turn it off  
-//   } else {  
-//     disableDarkMode(); 
-//   }
-// });
+  // if it not current enabled, enable it
+  if (darkMode !== 'enabled') {
+    enableDarkMode();
+  // if it has been enabled, turn it off  
+  } else {  
+    disableDarkMode(); 
+  }
+});
    }
 
     return (
@@ -69,7 +80,7 @@ const AsideBar = () => {
             </path>
           </svg>
         </a>
-        <button onClick={handleClick} id="dark-mode-toggle" className="dark-mode-toggle header__social">
+        <button onClick={toggleTheme} id="dark-mode-toggle" className="dark-mode-toggle header__social">
           <svg width="100%" height="20" aria-labelledby="darkModeView" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
              <title id="email">DarkMode</title>
             <path fill="currentColor" fillRule="evenodd"

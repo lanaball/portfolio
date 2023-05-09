@@ -19,7 +19,7 @@ const Projects = () => {
           
                 <div className="projects-column__content right-start">
                   <h5 className="projects-card__title">Crop Circle</h5>
-                  <h6 className="projects-card__subtitle">C2C MERN CRUD</h6>
+                  <h6 className="projects-card__subtitle">MERN fullstack Design</h6>
                   <p  className="projects-card__para">Group Project. Creating a consumer to consumer app and website that allows users to share their garden produce with
                     others. </p>
               </div>

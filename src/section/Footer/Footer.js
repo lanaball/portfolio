@@ -9,8 +9,10 @@ const Footer = () => {
     return (
         <div className="wrapper">
         <h3 className="triangle contact-header">Contact</h3>
-        <div><h6>Let's Connect</h6>
-        <p>Interested in working together or looking to chat over coffee? Shoot me a message and let's talk</p>
+        <div className="card">
+          <h6 className="card-head">Let's Connect</h6>
+          <p>Interested in working together or looking to chat over coffee?</p>
+          <p>Shoot me a message and let's talk</p>
      </div>
         <div className="contact-form">
           <form action="mailto:allana.m.kennedy@gmail.com" method="post" encType="text">
@@ -25,7 +27,9 @@ const Footer = () => {
         
             </div> 
          
-          <a className="btn to-top" href="./">^</a>
+        <div>
+          
+          <a className="to-top" href="./">Back to Top</a></div> 
          </div>
   )
 }

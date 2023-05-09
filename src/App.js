@@ -1,6 +1,12 @@
+
+// STYLE
 import './App.scss';
+
+// COMPONENTS
 import AsideBar from './components/AsideBar/AsideBar';
 import Navbar from './components/Navbar/Navbar';
+
+// SECTIONS IN PAGES
 import Header from './section/Header/Header';
 import About from './section/About/About';
 import Skills from './section/Skills/Skills'

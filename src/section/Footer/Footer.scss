@@ -2,21 +2,34 @@
     padding-left: 1.5em;
 }
 
+.card {
+    border: 1px solid #b13636;
+    width: 60%;
+
+    &-head {
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+}
+
 .contact-form {
     width: 100%;
     max-width: 70%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #a57d7d;
     border-radius: 5px;
 }
 
 .contact-form form {
+    border: 1px solid #be3333;
     display: grid;
     grid-gap: 10px;
 }
 
 .contact-form label {
+    border: 1px solid #a83232;
     display: block;
     font-size: var(--fs-24);
     font-weight: bold;
@@ -42,4 +55,5 @@
 .to-top {
     padding: 1.5rem;
     border-radius: 5%;
+    opacity: .5;
 }
