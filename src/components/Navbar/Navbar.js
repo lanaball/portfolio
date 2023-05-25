@@ -10,9 +10,9 @@ const Navbar = () => {
           <h2 className="visually-hidden">Navigation</h2>
           <a href="/" className="header__home triangle"><span className="visually-hidden">(to home page)</span>
           </a>
-          <a className="header__link" href="./index.html#about">about</a>
-          <a className="header__link" href="./index.html#projects">projects</a>
-          <a className="header__link" href="./index.html#contact">contact</a>
+      <a className="header__link" href="#about">about</a>
+          <a className="header__link" href="#projects">projects</a>
+          <a className="header__link" href="#contact">contact</a>
           <a className="header__link" href="./">resume</a>
         </nav>
       </div>

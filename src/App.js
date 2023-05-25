@@ -1,17 +1,17 @@
+// HOOKS
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // STYLE
 import './App.scss';
 
 // COMPONENTS
-import AsideBar from './components/AsideBar/AsideBar';
-import Navbar from './components/Navbar/Navbar';
+import LandingPage from './pages/LandingPage/LandingPage'
+import TaranakiApp from './pages/TaranakiApp/TaranakiApp';
+import CropCircle from './pages/CropCircle/CropCircle';
+import WordPress from './pages/WordPress/WordPress';
+import Resume from './pages/Resume/Resume';
 
-// SECTIONS IN PAGES
-import Header from './section/Header/Header';
-import About from './section/About/About';
-import Skills from './section/Skills/Skills'
-import Footer from './section/Footer/Footer';
-import Projects from './section/Projects/Projects'
+// import Resume from './pages/Resume/Resume'
 
 
 
@@ -19,13 +19,15 @@ import Projects from './section/Projects/Projects'
 function App() {
   return (
     <div className="App">
-      <AsideBar />
-      <Navbar />
-      <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
+      <BrowserRouter>
+      <Routes> 
+        <Route path='/' element={ <LandingPage />} />
+          <Route path='/cropcircle' element={<CropCircle />} /> 
+          <Route path='/wordpress' element={<WordPress />} /> 
+          <Route path='/taranakiapp' element={ <TaranakiApp /> } /> 
+          <Route path='/resume' element={ <Resume /> } />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

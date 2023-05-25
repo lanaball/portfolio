@@ -2,13 +2,13 @@
 .hero__wrapper {
     display: flex;
     /* outline: 1px red solid; */
-    padding-bottom: 8rem;
+    // padding-bottom: 8rem;
     margin: auto;
     padding-top: 1rem;
 }
 
 .hero__name {
-    color: var(--clr-accent);
+    // color: var(--clr-dark);
     font-weight: 900;
 }
 
@@ -17,32 +17,31 @@
     font-weight: 600;
     letter-spacing: 3px;
     line-height: 1.2em;
-    /* text-align: center; */
     text-transform: uppercase;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 
 @media (min-width: 75.5em) {
     .heading_primary {
         font-size: var(--fs-88);
         width: 80%;
-        padding-left: 2em;
+        padding-left: 1em;
     }
 }
 
 .text_primary {
     font-size: var(--fs-18);
-    /* text-align: center; */
-    width: 90%;
-    margin: auto;
+    width: 80%;
+    margin: 0;
     letter-spacing: 2px;
-    padding-bottom: 1rem;
-    justify-content: center;
+    // padding-bottom: 1rem;
+    // justify-content: center;
 }
 
 @media (min-width: 75.5em) {
     .text_primary {
         font-size: var(--fs-32);
+        padding-left: 2.8em;
     }
 }
 
@@ -58,3 +57,6 @@
         padding: 5em 0;
     }
 }
+
+
+

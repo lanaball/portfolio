@@ -35,9 +35,13 @@ svg {
     padding: 3px;
     background: transparent;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 30px;
     height: 30px;
+}
+
+.dark-mode-toggle:hover {
+    color: var(--clr-accent);
 }
 
 .social__link {

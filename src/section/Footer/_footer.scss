@@ -1,10 +1,14 @@
 .contact-header {
     padding-left: 1.5em;
+    display: flex;
+    float: right;
+    justify-items: end;
 }
 
 .card {
-    border: 1px solid #b13636;
+    border: 1px solid #494242;
     width: 60%;
+    padding-top: 8rem;
 
     &-head {
         padding: 0;
@@ -14,22 +18,21 @@
 }
 
 .contact-form {
-    width: 100%;
-    max-width: 70%;
+    width: 40%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #a57d7d;
+    // border: 1px solid #a57d7d;
     border-radius: 5px;
 }
 
 .contact-form form {
-    border: 1px solid #be3333;
+    // border: 1px solid #be3333;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 1px;
 }
 
 .contact-form label {
-    border: 1px solid #a83232;
+    // border: 1px solid #a83232;
     display: block;
     font-size: var(--fs-24);
     font-weight: bold;
@@ -45,15 +48,12 @@
     /* background-color: var(--clr-light); */
 }
 
-
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-
 }
 
-.to-top {
-    padding: 1.5rem;
-    border-radius: 5%;
-    opacity: .5;
+.submit-contact {
+    border: none;
+    margin-top: 2rem;
 }

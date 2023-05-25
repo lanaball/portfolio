@@ -5,7 +5,6 @@ const Skills = () => {
 
     return (
         <>
-        <hr />
            <div className="about-skills__wrapper wrapper">
              <h4 className='skills__title'>Development Skills</h4>
              <div className="skills">
@@ -18,7 +17,8 @@ const Skills = () => {
                <div className="skills__skill">Node JS</div>
                <div className="skills__skill">MongoDB</div>
                <div className="skills__skill">GitHub</div>
-               <div className="skills__skill">Shopify</div>
+            <div className="skills__skill">Shopify</div>
+            <div className="skills__skill">WordPress</div>
              </div>
              <h4 className='skills__title'>UX/UI Skills</h4>
              <div className="skills">
