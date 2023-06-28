@@ -1,0 +1,25 @@
+/* ------------------- SKILLS ---------------------- */
+
+.skills__title {
+    padding: .5rem;
+    margin: 0;
+}
+
+.skills {
+    // border: 1px solid salmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.skills__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: var(--fs-24);
+    background: rgba(173, 173, 173, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}

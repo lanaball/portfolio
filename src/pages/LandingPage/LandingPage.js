@@ -9,18 +9,22 @@ import About from '../../section/About/About';
 import Skills from '../../section/Skills/Skills'
 import Footer from '../../section/Footer/Footer';
 import Projects from '../../section/Projects/Projects';
+import BackToTop from '../../components/BackToTop/BackToTop';
+import Contact from '../../section/Contact/Contact';
 
 export default function LandingPage() {
 
     return (
-        <>
+    <>
     <AsideBar />
-      <Navbar />
-      <Header />
-      <Projects />
-      <About />
-      <Skills />
-            <Footer />
-            </>
+    <Navbar />
+    <Header />
+    <Projects />
+    <About />
+    <Skills />
+    <Contact />
+    <BackToTop />
+    <Footer />  
+    </>
     )
 }

@@ -1,59 +1,9 @@
-.contact-header {
-    padding-left: 1.5em;
-    display: flex;
-    float: right;
-    justify-items: end;
-}
+.footer {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
 
-.card {
-    border: 1px solid #494242;
-    width: 60%;
-    padding-top: 8rem;
-
-    &-head {
-        padding: 0;
-        margin: 0;
-        text-transform: uppercase;
+    p {
+        font-size: 10px;
     }
-}
-
-.contact-form {
-    width: 40%;
-    margin: 0 auto;
-    padding: 20px;
-    // border: 1px solid #a57d7d;
-    border-radius: 5px;
-}
-
-.contact-form form {
-    // border: 1px solid #be3333;
-    display: grid;
-    grid-gap: 1px;
-}
-
-.contact-form label {
-    // border: 1px solid #a83232;
-    display: block;
-    font-size: var(--fs-24);
-    font-weight: bold;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 1rem;
-    font-size: var(--fs-18);
-    border: none;
-    /* background-color: var(--clr-light); */
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: none;
-}
-
-.submit-contact {
-    border: none;
-    margin-top: 2rem;
 }

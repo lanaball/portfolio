@@ -60,3 +60,122 @@
 
 
 
+
+// ANIMATION TRIANGLE
+$triangle-base: 100px;
+$animation-duration: 20s;
+
+.triangle-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    padding: 8rem 0;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: $triangle-base * 2;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+@keyframes triangle-color {
+
+    0%,
+    33.32% {
+        background-color: var(--clr-accent);
+    }
+
+    33.33%,
+    66.65% {
+        background-color: aqua;
+    }
+
+    66.66%,
+    100% {
+        background-color: gold;
+    }
+}
+
+@keyframes triangle-shape {
+    0% {
+        background-color: aqua;
+        clip-path: polygon(0% 100%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 100%);
+    }
+
+    33.32% {
+        background-color: aqua;
+        clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(50% 0, 100% 100%, 0% 100%);
+    }
+
+    33.33% {
+        background-color: gold;
+        clip-path: polygon(0% 100%, 50% 0%, 50% 0%);
+        -webkit-clip-path: polygon(0% 100%, 50% 0%, 50% 0%);
+    }
+
+    66.65% {
+        background-color: gold;
+        clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+        -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    }
+
+    66.66% {
+        background-color: var(--clr-accent);
+        clip-path: polygon(50% 0%, 100% 100%, 100% 100%);
+        -webkit-clip-path: polygon(50% 0%, 100% 100%, 100% 100%);
+    }
+
+    100% {
+        background-color: var(--clr-accent);
+        clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+.triangle {
+    position: relative;
+    width: $triangle-base;
+    height: $triangle-base * 0.87;
+    background-color: aqua;
+    animation: triangle-color $animation-duration infinite;
+    clip-path: polygon(50% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(50% 0, 100% 100%, 0% 100%);
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        animation: triangle-shape $animation-duration infinite;
+    }
+}
+
+@for $t from 1 through 4 {
+    .triangle:nth-child(#{$t}) {
+        @if $t ==1 {
+            margin: 0 $triangle-base * 0.5;
+        }
+
+        @if $t ==3 {
+            z-index: 1;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%) translateY(-0.5%) rotate(180deg) scale(1.02);
+        }
+
+        &,
+        &::before {
+            animation-delay: $t * ($animation-duration / 4) * -1;
+        }
+    }
+}

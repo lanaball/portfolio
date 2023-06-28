@@ -6,23 +6,12 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-// import Brightness4Icon from '@mui/icons-material/Brightness4';
+
 
 const AsideBar = () => {
 
-  // const [theme, setTheme] = useState('light');
-  // const toggleTheme = () => {
-
-  //   if (theme === 'light') {
-  //     setTheme('dark');
-  //   } else {
-  //     setTheme('light')
-  //   }
-
-  // }
-
+ 
   const toggleTheme = () => {
-    // console.log('i have been clicked')
   // check for saved 'darkMode' in localStorage
 let darkMode = localStorage.getItem('darkMode'); 
 
@@ -61,7 +50,9 @@ darkModeToggle.addEventListener('click', () => {
     disableDarkMode(); 
   }
 });
-   }
+  }
+  
+    
 
     return (
          <div className="social__link">
@@ -88,7 +79,7 @@ darkModeToggle.addEventListener('click', () => {
 
         <button onClick={toggleTheme} id="dark-mode-toggle" className="dark-mode-toggle header__social">
           <svg width="100%" height="20" aria-labelledby="darkModeView" role="img" viewBox="0 0 496 496"> <DarkModeIcon /> 
-             <title id="darkmode">DarkMode</title>
+             <title id="darkmode">DarkMode - DoubleClick</title>
           </svg>
         </button>
       </div>

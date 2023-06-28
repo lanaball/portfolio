@@ -18,8 +18,7 @@
 }
 
 .about-body {
-   
-    padding: 1em 0 20rem 0; 
+    padding: 1em 0 10rem 0; 
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -50,14 +49,26 @@
 
 
 /* ------------------- HEXAGON IMAGE ---------------------- */
+.hexa-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        // height: 100vh;
+}
+
 .hexa,
 .hexa div {
     outline: 1px solid var(--clr-accent);
     margin: 0 auto;
     transform-origin: 50% 50%;
     overflow: hidden;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
+
+    @media (min-width: 75em) {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 

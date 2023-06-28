@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    width: 10vw;
+    float: right;
+}
+
+.material-icons {
+    color: var(--clr-accent);
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+
+    svg {
+        font-size: 4rem;
+        font-weight: 200;
+    }
+}
+
+
+.chevron-up {
+    margin: auto;
+    animation: hover-me .5s infinite ease-in-out alternate;
+}
+
+.chevron-up:hover {
+    cursor: pointer;
+}
+
+@keyframes hover-me {
+    100% {
+        transform: translate3d(0, 25px, 0);
+    }
+}

@@ -2,7 +2,7 @@
 import { useNavigate } from 'react-router-dom';
 
 // STYLE SHEET
-import './BackButton.scss';
+import './_BackButton.scss';
 
 const BackButton = () => {
   const navigate = useNavigate();
@@ -15,6 +15,8 @@ const BackButton = () => {
         className='back-button'
       > <span className='back-arrow'> </span>
       </button>
+
+      
     </nav>
   );
 };

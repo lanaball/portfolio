@@ -1,0 +1,120 @@
+// .main-page {
+//     height: 100vh;
+//     width: 100vw;
+//     position: fixed;
+
+
+//     // BODY
+//     &__body {
+//         height: 100%;
+//         display: flex;
+//         flex-direction: row;
+//     }
+
+//     .column-left {
+//         width: 50%;
+//         height: 90%;
+//         // padding-top: 10rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         border-right: solid 0.1rem var(--clr-dark);
+//         // position: fixed;
+
+//         @media (max-width: 37.5em) {
+//             display: none;
+//         }
+//     }
+
+//     .column-right {
+//         display: flex;
+//         flex-direction: column;
+//         overflow: scroll;
+//         width: 50%;
+//         height: 90%;
+
+
+//         @media (max-width: 37.5em) {
+//             width: 100%;
+//         }
+//     }
+// }
+
+// CIRCLE
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+
+    &__background {
+        background-color: #FFDB59;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40rem;
+        width: 40rem;
+
+        @media (max-width: 1284px) {
+            width: 30rem;
+            height: 30rem;
+        }
+
+        @media (max-width: 1024px) {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+
+    &__title {
+        font-size: 4.8rem;
+        line-height: 6rem;
+        padding: 3.5rem;
+        text-align: center;
+        text-transform: lowercase;
+    }
+}
+
+
+.content {
+    width: 80%;
+    margin: auto;
+
+    h2 {
+        font-size: 2.9rem;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    &-image {
+        padding: 2rem 0;
+    }
+
+    section {
+        padding-top: 5rem;
+    }
+}
+
+.project-btn {
+    font-size: 12px;
+    padding: .5rem 1.5rem;
+}

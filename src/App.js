@@ -8,10 +8,8 @@ import './App.scss';
 import LandingPage from './pages/LandingPage/LandingPage'
 import TaranakiApp from './pages/TaranakiApp/TaranakiApp';
 import CropCircle from './pages/CropCircle/CropCircle';
-import WordPress from './pages/WordPress/WordPress';
 import Resume from './pages/Resume/Resume';
-
-// import Resume from './pages/Resume/Resume'
+import NataChocolate from './pages/NataChocolates/NataChocolate';
 
 
 
@@ -23,9 +21,9 @@ function App() {
       <Routes> 
         <Route path='/' element={ <LandingPage />} />
           <Route path='/cropcircle' element={<CropCircle />} /> 
-          <Route path='/wordpress' element={<WordPress />} /> 
           <Route path='/taranakiapp' element={ <TaranakiApp /> } /> 
-          <Route path='/resume' element={ <Resume /> } />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/natachocolate' element={ <NataChocolate /> } />
         </Routes>
       </BrowserRouter>
     </div>

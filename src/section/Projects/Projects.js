@@ -1,76 +1,133 @@
+// IMPORT
 import { Link } from 'react-router-dom';
+
 
 // -------- STYLE --------
 import './_projects.scss';
 
-// IMPORT: in your APP.js or any component file
-import { motion } from 'framer-motion';
 
 // -------- IMAGES --------
 import Taranaki from '../../assets/images/mockup-taranaki3.png';
 import CropCircle from '../../assets/images/mockup-cc2.png';
+import Nata from '../../assets/images/natamock.png';
 
 
 const Projects = () => {
+ 
+
 
   return (
-
+ 
     <div id="projects" className="wrapper">
-      <h3 className="triangle projects-title"> Projects</h3>
+      <h3 className="triangle-steady projects-title"> Projects</h3>
 
-
-      <motion.div animate={{ y: -50, transition: { duration: 5, delay: 1 } }}
-        initial={{ x: 20 }}>
-        <div className="projects-card">
-          <div className="projects-column__image">
-            <Link to='./CropCircle' > <img className="projects-image" src={CropCircle} alt="mockup of accommodation app" /> </Link>
-          </div>
-
+ 
+      <div className="projects-card"  >
+        <div className="projects-column__image">
+          <Link to='./CropCircle' > <img className="projects-image" src={CropCircle} alt="mockup of accommodation app" /> </Link>
+        </div>
+       
+     
           <div className="projects-column__content right-start">
             <h5 className="projects-card__title">Crop Circle</h5>
-            <h6 className="projects-card__subtitle">MERN fullstack Design</h6>
-            <p className="projects-card__para">Group Project. Creating a consumer to consumer app and website that allows users to share their garden produce with
-              others. </p>
+            <h6 className="projects-card__subtitle">Front and Back End Application Development</h6>
+            {/* <p className="projects-card__para"> During a time when the cost of produce in Aotearoa was skyrocketing we decided to create a community focused produce waste website. Crop Circle allows users to share their garden crops with others. </p> */}
+            <div className="skills">
+                    <div className="skills__skill small">MongoDB</div>
+            <div className="skills__skill small">Express</div>
+            <div className="skills__skill small">React</div>
+             <div className="skills__skill small">Node JS</div>
+              <div className="skills__skill small">GitHub</div>
+            </div>
+          <Link className='link' to='./CropCircle' >
+            <button className='btn'>See More</button>
+          </Link>
           </div>
-        </div>
-      </motion.div>
+      </div>
+  
 
-      <motion.div animate={{ y: -50, transition: { duration: 2, delay: 1 } }}
-        initial={{ x: 20 }}>
-        <div className="projects-card">
 
-          <div className="projects-column__content right-start">
+      <div className="projects-card">
+          <div className="projects-column__content">
             <h5 className="projects-card__title">Nata Chocolates</h5>
             <h6 className="projects-card__subtitle">WordPress Custom Design</h6>
-            <p className="projects-card__para"> Creating a ecommerce WordPress custom theme </p>
+            {/* <p className="projects-card__para"> Creating a ecommerce WordPress site and custom theme for Nata. For this project, I worked with an artisanal chocolate maker in Costa Rica to showcase their exquisite chocolates. </p> */}
+
+            <div className="skills">
+              <div className="skills__skill small">WordPress</div>
+              <div className="skills__skill small">PHP</div>
+              <div className="skills__skill small">GitHub</div>
+            </div>
+           <Link className='link' to='./NataChocolate' >  
+            <button className='btn projects-btn'>See More</button>
+               </Link> 
           </div>
-          <div className="projects-column__image">
-            <Link to='./WordPress' >
-              <img className="projects-image" src={CropCircle} alt="mockup of accommodation app" /> 
-        </Link>
-          </div>
-        </div>
-      </motion.div>
+  
+        <div className="projects-column__image">
+          <Link to='./NataChocolate' >
+            <img className="projects-image" src={Nata} alt="mockup of accommodation app" />
+          </Link>
+          </div>     
+      </div>
 
 
-      <motion.div animate={{ y: 50, transition: { duration: 2, delay: 1 } }}
-        initial={{ x: 20 }}>
-        <div className="projects-card">
-          <div className="projects-column__image">
-            <Link to='./TaranakiApp'>
+
+
+      <div className="projects-card">
+        <div className="projects-column__image">
+          <Link to='./TaranakiApp'>
             <img className="projects-image" src={Taranaki} alt="mockup" />
-            </Link>
-          </div>
-
-          <div className="projects-column__content">
-            <h5 className="projects-card__title">Accommodation App</h5>
-            <h6 className="projects-card__subtitle">case study</h6>
-            <p className="projects-card__para">An application that allows users to book accommodation in Taranaki adapted to number of guests and meal choices</p>
-          </div>
-
+          </Link>
         </div>
-      </motion.div>
+      
+          <div className="projects-column__content right-start">
+            <h5 className="projects-card__title">Accommodation App</h5>
+            <h6 className="projects-card__subtitle">Single Page Javascript Application</h6>
+            {/* <p className="projects-card__para"> When the mountain and sea is calling...you need to visit Taranaki. This digital booking accommodation application allows users to book accommodation in Taranaki. </p> */}
+
+            <div className='skills'>
+              <div className="skills__skill small">HTML</div>
+              <div className="skills__skill small">CSS</div>
+              <div className="skills__skill small">SCSS</div>
+              <div className="skills__skill small">Javascript</div>
+            </div>
+             <Link className='link' to='./TaranakiApp' > 
+            <button className='btn'>See More</button>
+            </Link> 
+          </div>
+      </div>
+
+      
+   
+      <div className="projects-card">
+          <div className="projects-column__content">
+            <h5 className="projects-card__title">Book Club</h5>
+            <h6 className="projects-card__subtitle">Front and Back End Application Development</h6>
+            <p className="projects-card__para">  </p>
+
+            <div className="skills">
+              <div className="skills__skill small">MongoDB</div>
+            <div className="skills__skill small">Express</div>
+            <div className="skills__skill small">React</div>
+             <div className="skills__skill small">Node JS</div>
+              <div className="skills__skill small">GitHub</div>
+            </div>
+           <Link className='link' to='./NataChocolate' >  
+            <button className='btn projects-btn'>See More</button>
+               </Link> 
+          </div>
+  
+        <div className="projects-column__image">
+          <Link to='./NataChocolate' >
+            <img className="projects-image" src={Nata} alt="mockup of accommodation app" />
+          </Link>
+          </div>     
+      </div>
+
+
     </div>
+
+
   )
 }
 
