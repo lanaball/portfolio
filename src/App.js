@@ -17,7 +17,7 @@ import BookVibe from './pages/BookVibe/BookVibe';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='https://lanaball.github.io/portfolio/'>
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/cropcircle' element={<CropCircle />} />
