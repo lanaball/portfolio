@@ -10,7 +10,7 @@ import TaranakiApp from './pages/TaranakiApp/TaranakiApp';
 import CropCircle from './pages/CropCircle/CropCircle';
 import Resume from './pages/Resume/Resume';
 import NataChocolate from './pages/NataChocolates/NataChocolate';
-
+import BookVibe from './pages/BookVibe/BookVibe';
 
 
 
@@ -23,7 +23,8 @@ function App() {
           <Route path='/cropcircle' element={<CropCircle />} /> 
           <Route path='/taranakiapp' element={ <TaranakiApp /> } /> 
           <Route path='/resume' element={<Resume />} />
-          <Route path='/natachocolate' element={ <NataChocolate /> } />
+          <Route path='/natachocolate' element={<NataChocolate />} />
+           <Route path='/bookvibe' element={<BookVibe />} />
         </Routes>
       </BrowserRouter>
     </div>

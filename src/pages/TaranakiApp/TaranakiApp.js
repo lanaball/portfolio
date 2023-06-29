@@ -6,19 +6,20 @@ import './_taranakiApp.scss';
 
 // IMAGES
 import taranakiApp from '../../assets/images/taranaki/Group 55.png';
-import taranakiMB from '../../assets/images/taranaki/tarana.png';
-import code4 from '../../assets/images/taranaki/code1.png';
-import code5 from '../../assets/images/taranaki/code2.png';
+import taranakiMB from '../../assets/images/taranaki/moodbrdT.png';
+import code4 from '../../assets/images/taranaki/code6.png';
+
 
 
 
 export default function TaranakiApp() {
 
-
+    const pageTitle = "Taranaki App"
+    
     return (
         <>
             <div className='main-page'>
-                <BackButton />
+                <BackButton pageTitle={pageTitle}/>
 
                 <main className='main-page__body'>
                     <div className='column-left'>
@@ -27,7 +28,6 @@ export default function TaranakiApp() {
 
                     <div className='column-right'>
                         <div className='content'>
-                            <h1>Taranaki App</h1>
                             <h2>Digital Booking Accommodation Application</h2>
 
                             <section>
@@ -38,22 +38,23 @@ export default function TaranakiApp() {
                             <section>
                                 <h2>Design</h2>
                                 <img src={taranakiMB} alt="moodboard for taranaki booking app" />
+
+                                <div className="content__box">
+                                    <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/Z8tnXaBAZWDSKeFkPlJOPy/Taranaki-Stay?page-id=0%3A1&type=design&node-id=27-20&viewport=568%2C301%2C0.13&scaling=contain&starting-point-node-id=1%3A2&mode=design">Figma Design</a>
+                                </div>
                             </section>
 
                             <section>
                                 <h2>Development</h2>
                                 <p>
-                                    Development is a simple one page html document, best viewport size Pixel 5 (width: 400px).
+                                    Data was stored in JSON files and conditionally rendered using javascript. It was important throughout this project to have naming protocols associated with functions and classes so code fragments could be found easily thought the file structure.
+                                    To view, best viewport size width: 400px.
                                 </p>
                                 <img src={code4} alt="code for taranaki booking app" />
-                                <img src={code5} alt="code for taranaki booking app" />
                             </section>
 
                             <div className='content__box'>
                                 <a className='btn project-btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/Accommodation-App--Javascript.git">GitHub Repository</a>
-
-                                <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/Z8tnXaBAZWDSKeFkPlJOPy/Taranaki-Stay?page-id=0%3A1&type=design&node-id=27-20&viewport=568%2C301%2C0.13&scaling=contain&starting-point-node-id=1%3A2&mode=design">Figma Design</a>
-
                                 <a className='btn project-btn' href=" https://lanaball.github.io/Accommodation-App--Javascript/">View</a>
                             </div>
                         </div>

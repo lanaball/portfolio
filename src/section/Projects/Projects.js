@@ -10,6 +10,7 @@ import './_projects.scss';
 import Taranaki from '../../assets/images/mockup-taranaki3.png';
 import CropCircle from '../../assets/images/mockup-cc2.png';
 import Nata from '../../assets/images/natamock.png';
+import BookVibe from '../../assets/images/bookvibe/bookmu.png';
 
 
 const Projects = () => {
@@ -101,7 +102,7 @@ const Projects = () => {
    
       <div className="projects-card">
           <div className="projects-column__content">
-            <h5 className="projects-card__title">Book Club</h5>
+            <h5 className="projects-card__title">Bookvibe</h5>
             <h6 className="projects-card__subtitle">Front and Back End Application Development</h6>
             <p className="projects-card__para">  </p>
 
@@ -112,14 +113,14 @@ const Projects = () => {
              <div className="skills__skill small">Node JS</div>
               <div className="skills__skill small">GitHub</div>
             </div>
-           <Link className='link' to='./NataChocolate' >  
+           <Link className='link' to='./Bookvibe' >  
             <button className='btn projects-btn'>See More</button>
                </Link> 
           </div>
   
         <div className="projects-column__image">
-          <Link to='./NataChocolate' >
-            <img className="projects-image" src={Nata} alt="mockup of accommodation app" />
+          <Link to='./bookvibe' >
+            <img className="projects-image" src={BookVibe} alt="mockup of accommodation app" />
           </Link>
           </div>     
       </div>
