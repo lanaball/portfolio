@@ -15,11 +15,11 @@ import Development2 from '../../assets/images/nata/screenshot2.png';
 const NataChocolate = () => {
 
   const pageTitle = "Nata Craft Cacao"
-  
+
   return (
     <>
       <div className='main-page'>
-        <BackButton pageTitle={pageTitle}/>
+        <BackButton pageTitle={pageTitle} />
         <main className="main-page__body">
           <div className='column-left'>
             <div className='column-left__image' >
@@ -29,28 +29,28 @@ const NataChocolate = () => {
 
           <div className="column-right">
             <div className='content'>
-              
-                <h2>About</h2>
-                <p>
-                  Nata Craft Cacao are looking to create a website to showcase their business, they have a focus on local markets in Quepos, Costa Rica and want a website to showcase their story, events and blog.
-                </p>
-                <p>
-                  The website features a modern and elegant design, reflecting the brand's image and values. A carefully crafted user experience strategy was implemented, focusing on intuitive navigation, captivating visuals, and seamless functionality.
-                </p>
-                <p>
-                  To ensure easy access to information, a well-structured sitemap was designed, organizing the content into relevant categories such as chocolate types, flavor profiles, and product details. Three user personas were developed to guide the design process, taking into account the preferences and needs of potential customers.
-                </p>
-                <p>
-                  The WordPress CMS was customized to enable easy content management, allowing the client to update and showcase their products effortlessly. Training documentation was provided to guide the client on managing the website using the WordPress CMS effectively.
-                </p>
-                <p>
-                  Overall, this project showcases the artisanal chocolate maker, resulting in a visually stunning, user-friendly, and customizable website that effectively captures the essence of the brand and offers a delightful experience to chocolate lovers and people who want to know more about the brand Nata.
-                </p>
 
-                <div className="content__box">
-                  <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=117-1755&scaling=scale-down-width&page-id=117%3A1429&starting-point-node-id=117%3A1755&mode=design">Figma Report</a>
-                </div>
-            
+              <h2>About</h2>
+              <p>
+                Nata Craft Cacao are looking to create a website to showcase their business, they have a focus on local markets in Quepos, Costa Rica and want a website to showcase their story, events and blog.
+              </p>
+              <p>
+                The website features a modern and elegant design, reflecting the brand's image and values. A carefully crafted user experience strategy was implemented, focusing on intuitive navigation, captivating visuals, and seamless functionality.
+              </p>
+              <p>
+                To ensure easy access to information, a well-structured sitemap was designed, organizing the content into relevant categories such as chocolate types, flavor profiles, and product details. Three user personas were developed to guide the design process, taking into account the preferences and needs of potential customers.
+              </p>
+              <p>
+                The WordPress CMS was customized to enable easy content management, allowing the client to update and showcase their products effortlessly. Training documentation was provided to guide the client on managing the website using the WordPress CMS effectively.
+              </p>
+              <p>
+                Overall, this project showcases the artisanal chocolate maker, resulting in a visually stunning, user-friendly, and customizable website that effectively captures the essence of the brand and offers a delightful experience to chocolate lovers and people who want to know more about the brand Nata.
+              </p>
+
+              <div className="content__box">
+                <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=117-1755&scaling=scale-down-width&page-id=117%3A1429&starting-point-node-id=117%3A1755&mode=design">Figma Report</a>
+              </div>
+
 
               <section>
                 <h2>Design</h2>
@@ -64,10 +64,10 @@ const NataChocolate = () => {
               <section>
                 <h2>Development</h2>
                 <p>
-                  
-Custom Theme Development <br />
 
-The process of building a custom theme required developing an in-depth understanding of php to build efficient code. Javascript was used to animate and conditionally display content.
+                  Custom Theme Development <br />
+
+                  The process of building a custom theme required developing an in-depth understanding of php to build efficient code. Javascript was used to animate and conditionally display content.
 
                 </p>
                 <img className='nata-image__development' src={Development1} alt="screenshot of website" />

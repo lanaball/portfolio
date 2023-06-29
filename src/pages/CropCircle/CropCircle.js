@@ -5,7 +5,6 @@ import BackButton from '../../components/BackButton/BackButton';
 import './_CropCircle.scss';
 
 // IMAGES
-// import Moodbd from '../../assets/images/cropcircle/Group 41.png';
 import hifimob from '../../assets/images/cropcircle/Frame 54.png';
 import hifidesk from '../../assets/images/cropcircle/Frame 53.png';
 import hifidesk2 from '../../assets/images/cropcircle/Frame 52.png';
@@ -27,7 +26,7 @@ export default function CropCircle() {
             {/* <AsideBar /> */}
             <div className='main-page'>
                 {/* <header className='main-page__header'> */}
-                <BackButton pageTitle={pageTitle}/>
+                <BackButton pageTitle={pageTitle} />
                 {/* </header> */}
                 <main className='main-page__body'>
                     <div className='column-left'>

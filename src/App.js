@@ -18,13 +18,13 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes> 
-        <Route path='/' element={ <LandingPage />} />
-          <Route path='/cropcircle' element={<CropCircle />} /> 
-          <Route path='/taranakiapp' element={ <TaranakiApp /> } /> 
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/cropcircle' element={<CropCircle />} />
+          <Route path='/taranakiapp' element={<TaranakiApp />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/natachocolate' element={<NataChocolate />} />
-           <Route path='/bookvibe' element={<BookVibe />} />
+          <Route path='/bookvibe' element={<BookVibe />} />
         </Routes>
       </BrowserRouter>
     </div>

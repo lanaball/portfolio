@@ -12,14 +12,14 @@ const Header = () => {
                         <p className="text_primary">I'm a creative Web Developer and UX Designer with a coffee roaster's mind for problem solving</p>
                     </div>
 
-  <div className="triangle-body wrapper">                
-<div className="logo">
-    <div className="triangle"></div>
-    <div className="triangle"></div>
-    <div className="triangle"></div>
-    <div className="triangle"></div>
-</div>
-</div>  
+                    <div className="triangle-body wrapper">
+                        <div className="logo">
+                            <div className="triangle"></div>
+                            <div className="triangle"></div>
+                            <div className="triangle"></div>
+                            <div className="triangle"></div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

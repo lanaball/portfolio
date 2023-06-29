@@ -19,7 +19,7 @@ const About = () => {
                         <p> I'm a recent graduate in UX/UI Design and Web Development.</p>
 
                         <p> With a work history in New Zealand, the UK and Canada, and a degree in Psychology I have an interest in observing and understanding the how and why people do the things they do.</p>
-                      
+
 
                         <p className="about-body__p"> “A jack of all trades is a master of none, but oftentimes better than a master of one.” </p>
 

@@ -31,7 +31,7 @@ export default function BookVibe() {
                         <h2>About</h2>
                         <p>
                             Book Vibe was a playful experiment aimed at better understanding how to create applications using the React framework. The app encourages users to review a book that they have recently read and assign it a colour based on the associated vibe. </p>
-                  
+
 
                         <section>
                             <h2>Design</h2>

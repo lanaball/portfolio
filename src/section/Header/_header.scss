@@ -161,11 +161,11 @@ $animation-duration: 20s;
 
 @for $t from 1 through 4 {
     .triangle:nth-child(#{$t}) {
-        @if $t ==1 {
+        @if $t==1 {
             margin: 0 $triangle-base * 0.5;
         }
 
-        @if $t ==3 {
+        @if $t==3 {
             z-index: 1;
             position: absolute;
             left: 50%;

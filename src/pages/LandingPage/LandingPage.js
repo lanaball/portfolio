@@ -15,16 +15,16 @@ import Contact from '../../section/Contact/Contact';
 export default function LandingPage() {
 
     return (
-    <>
-    <AsideBar />
-    <Navbar />
-    <Header />
-    <Projects />
-    <About />
-    <Skills />
-    <Contact />
-    <BackToTop />
-    <Footer />  
-    </>
+        <>
+            <AsideBar />
+            <Navbar />
+            <Header />
+            <Projects />
+            <About />
+            <Skills />
+            <Contact />
+            <BackToTop />
+            <Footer />
+        </>
     )
 }

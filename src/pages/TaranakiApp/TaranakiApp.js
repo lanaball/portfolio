@@ -15,11 +15,11 @@ import code4 from '../../assets/images/taranaki/code6.png';
 export default function TaranakiApp() {
 
     const pageTitle = "Taranaki App"
-    
+
     return (
         <>
             <div className='main-page'>
-                <BackButton pageTitle={pageTitle}/>
+                <BackButton pageTitle={pageTitle} />
 
                 <main className='main-page__body'>
                     <div className='column-left'>

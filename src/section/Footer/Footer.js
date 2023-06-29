@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div className='footer'>
-    <p> You have reached the end my friend.</p>
+      <p> You have reached the end my friend.</p>
     </div>
   )
 }

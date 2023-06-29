@@ -1,57 +1,57 @@
   .resume {
-    padding-bottom: 5rem;
+      padding-bottom: 5rem;
 
-    &-head {
-        padding-right: 1.8em;
+      &-head {
+          padding-right: 1.8em;
 
-        &__p {
-            font-size: var(--fs-18);
-            color: grey;
-        }
-    }
+          &__p {
+              font-size: var(--fs-18);
+              color: grey;
+          }
+      }
 
-    &-body {
-        // border: 1px red solid;
-        width: 80%;
-        margin: auto;
-        padding-top: 1rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        
+      &-body {
+          // border: 1px red solid;
+          width: 80%;
+          margin: auto;
+          padding-top: 1rem;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
 
-       
 
-        ul {
-            padding-top: 1rem;
-        }
 
-        li {
-            list-style-type: disc;
-            padding: 0.5rem;
-        }
 
-        p {
-            font-size: 16px;
-            font-weight: bold;
-            padding: 0;
-            margin: 0;
-        }
+          ul {
+              padding-top: 1rem;
+          }
 
-        &__sec {
-          margin-top: 5rem;
-          padding-bottom: 2rem;
-        }
-    }
+          li {
+              list-style-type: disc;
+              padding: 0.5rem;
+          }
+
+          p {
+              font-size: 16px;
+              font-weight: bold;
+              padding: 0;
+              margin: 0;
+          }
+
+          &__sec {
+              margin-top: 5rem;
+              padding-bottom: 2rem;
+          }
+      }
   }
 
 
- .contact-btn {
-    width: 15%;
-    position: absolute;
-    right: 21%;
- }
+  .contact-btn {
+      width: 15%;
+      position: absolute;
+      right: 21%;
+  }
 
- .outpost {
-    padding-top: 5rem;
- }
+  .outpost {
+      padding-top: 5rem;
+  }
