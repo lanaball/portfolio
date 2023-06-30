@@ -1,5 +1,5 @@
 // HOOKS
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 // STYLE
 import './App.scss';
@@ -17,7 +17,7 @@ import BookVibe from './pages/BookVibe/BookVibe';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='https://lanaball.github.io/portfolio/'>
+      <HashRouter >
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/cropcircle' element={<CropCircle />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path='/natachocolate' element={<NataChocolate />} />
           <Route path='/bookvibe' element={<BookVibe />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter >
     </div>
   );
 }
