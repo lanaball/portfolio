@@ -1,4 +1,4 @@
-// IMPORT
+// ----- IMPORT ------
 import { Link } from 'react-router-dom';
 
 
@@ -7,9 +7,9 @@ import './_projects.scss';
 
 
 // -------- IMAGES --------
-import Taranaki from '../../assets/images/mockup-taranaki3.png';
-import CropCircle from '../../assets/images/mockup-cc2.png';
-import Nata from '../../assets/images/natamock.png';
+import Taranaki from '../../assets/images/taranaki/mockup-taranaki3.png';
+import CropCircle from '../../assets/images/cropcircle/mockup-cc2.png';
+import Nata from '../../assets/images/nata/natamock.png';
 import BookVibe from '../../assets/images/bookvibe/bookmu.png';
 
 

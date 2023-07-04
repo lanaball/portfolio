@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <div id="header" className="hero__wrapper">
-                <div className="wrapper">
+                <div id="Top" className="wrapper">
                     <h1 className="heading_primary">Kia Ora, I'm <br /><span className="hero__name triangle-steady"> llana.</span> </h1>
                     <div>
                         <p className="text_primary">I'm a creative Web Developer and UX Designer with a coffee roaster's mind for problem solving</p>

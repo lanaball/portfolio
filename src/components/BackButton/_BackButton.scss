@@ -1,11 +1,11 @@
 .back-nav {
     border-bottom: solid 0.1rem var(--foreground);
-    padding: 3.5rem 3.5rem 2.5rem;
+    padding: 2rem 2rem 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    .back-title {
+    .page-title {
         padding: 0;
         margin: 0;
         color: var(--clr-accent);

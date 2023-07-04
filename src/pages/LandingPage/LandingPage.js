@@ -12,6 +12,8 @@ import Projects from '../../section/Projects/Projects';
 import BackToTop from '../../components/BackToTop/BackToTop';
 import Contact from '../../section/Contact/Contact';
 
+
+
 export default function LandingPage() {
 
     return (

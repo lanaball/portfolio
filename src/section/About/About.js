@@ -1,10 +1,11 @@
+// IMPORTS
 import React from "react";
 import oceanView from '../../assets/images/portfolioPic.jpeg'
-
-// IMPORT: in your APP.js or any component file
 import { motion } from 'framer-motion';
 
+// STYLE
 import './_about.scss';
+
 
 const About = () => {
 

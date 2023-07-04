@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
               <div className="contact-form__item grid">
                 <label htmlFor="message">Message:</label>
-                <textarea id="message" name="message" rows="5" cols="30" placeholder='Type something here...' maxLength="5000" required=""></textarea>
+                <textarea id="message" name="message" rows="5" cols="30" placeholder='Type something here...' maxLength="1000" required=""></textarea>
               </div>
 
 

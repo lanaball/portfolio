@@ -1,7 +1,7 @@
-// HOOKS
+// ----- IMPORTS ------
 import { useNavigate } from 'react-router-dom';
 
-// STYLE SHEET
+// ----- STYLE ------
 import './_BackButton.scss';
 
 const BackButton = ({ pageTitle }) => {
@@ -15,7 +15,7 @@ const BackButton = ({ pageTitle }) => {
         className='back-button'
       > <span className='back-arrow'> </span>
       </button>
-      <h1 className='back-title'>{pageTitle}</h1>
+      <h1 className='page-title'>{pageTitle}</h1>
     </nav>
 
   );
