@@ -2,14 +2,19 @@
 import './_Contact.scss';
 import EmailIcon from '@mui/icons-material/Email';
 
+// COMPONENTS
+import AsideBar from '../../components/AsideBar/AsideBar';
+import Navbar from '../../components/Navbar/Navbar';
 
 const Contact = () => {
 
 
   return (
     <>
+       <AsideBar />
+        <Navbar />
       <div id='contact' className="wrapper">
-        <h3 className="triangle-steady contact-header">Contact</h3>
+        <h1 className="triangle-steady contact-header">Contact</h1>
         <div className='contact'>
 
           <div className='main-grid'>

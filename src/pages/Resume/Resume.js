@@ -1,14 +1,20 @@
+// IMPORTS
+import { Link } from 'react-router-dom';
 import React from 'react';
+
+// COMPONENTS
 import BackButton from '../../components/BackButton/BackButton';
 import AsideBar from '../../components/AsideBar/AsideBar';
+import Navbar from '../../components/Navbar/Navbar';
 
+// STYLE
 import './_Resume.scss';
 
 const Resume = () => {
     return (
         <>
             <AsideBar />
-            <BackButton />
+           <Navbar />
 
             <main className='wrapper'>
                 <div className='resume'>
@@ -94,8 +100,8 @@ const Resume = () => {
                         </ul>
                     </section>
 
-
-                    <a href="./#contact" className='btn contact-btn'> Contact</a>
+                    <Link to="/contact"> <a className="btn contact-btn" href="#" >contact</a>
+                    </Link>
                 </div>
 
             </main>

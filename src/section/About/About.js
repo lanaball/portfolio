@@ -3,6 +3,11 @@ import React from "react";
 import oceanView from '../../assets/images/portfolioPic.jpeg'
 import { motion } from 'framer-motion';
 
+// COMPONENTS
+import AsideBar from '../../components/AsideBar/AsideBar';
+import Navbar from '../../components/Navbar/Navbar';
+import Skills from "../Skills/Skills";
+
 // STYLE
 import './_about.scss';
 
@@ -10,9 +15,13 @@ import './_about.scss';
 const About = () => {
 
     return (
+        <>
+            <AsideBar />
+            <Navbar />
+        
         <div id="about" className="wrapper">
             <div className="about">
-                <h3 className="about-head triangle-steady"> About Me</h3>
+                <h1 className="about-head triangle-steady"> About Me</h1>
                 <h4 className="about-head__title">Creative, Globetrotter, Coffeeholic, Developer</h4>
                 <div className="about-body">
                     <div className="about-body__content">
@@ -26,7 +35,7 @@ const About = () => {
 
                         <p> Years of experience as a coffee roaster has helped me develop strong skills in teamwork and problem solving needed for web development. </p>
 
-                        <a href=""> <p> Let's get a coffee </p> </a>
+                        <a href="mailto:allana.m.kennedy@gmail.com"> <p> Let's get a coffee </p> </a>
 
 
                     </div>
@@ -43,7 +52,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+
+            <Skills />
+            </>
     )
 }
 

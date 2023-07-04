@@ -1,6 +1,11 @@
 .contact {
     display: flexbox;
+    padding-top: 5rem;
 
+    &-header {
+        padding-left: 1.5em;
+    }
+    
     &-card {
 
 
@@ -94,7 +99,6 @@
                 transition: border-color .4s, background-color .4s;
                 overflow: auto;
             }
-
         }
     }
 }
@@ -109,7 +113,6 @@
     justify-self: start;
 
 }
-
 
 .main-grid {
     width: 100%;

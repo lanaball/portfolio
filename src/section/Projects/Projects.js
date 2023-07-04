@@ -1,10 +1,8 @@
 // ----- IMPORT ------
 import { Link } from 'react-router-dom';
 
-
 // -------- STYLE --------
 import './_projects.scss';
-
 
 // -------- IMAGES --------
 import Taranaki from '../../assets/images/taranaki/mockup-taranaki3.png';
@@ -12,20 +10,25 @@ import CropCircle from '../../assets/images/cropcircle/mockup-cc2.png';
 import Nata from '../../assets/images/nata/natamock.png';
 import BookVibe from '../../assets/images/bookvibe/bookmu.png';
 
+// COMPONENTS
+import AsideBar from '../../components/AsideBar/AsideBar';
+import Navbar from '../../components/Navbar/Navbar';
+
+
 
 const Projects = () => {
 
-
-
   return (
-
+    <>
+       <AsideBar />
+        <Navbar />
     <div id="projects" className="wrapper">
-      <h3 className="triangle-steady projects-title"> Projects</h3>
+      <h1 className="triangle-steady projects-title"> Projects</h1>
 
 
       <div className="projects-card"  >
         <div className="projects-column__image">
-          <Link to='./CropCircle' > <img className="projects-image" src={CropCircle} alt="mockup of accommodation app" /> </Link>
+          <Link to='/CropCircle' > <img className="projects-image" src={CropCircle} alt="mockup of accommodation app" /> </Link>
         </div>
 
 
@@ -40,7 +43,7 @@ const Projects = () => {
             <div className="skills__skill small">Node JS</div>
             <div className="skills__skill small">GitHub</div>
           </div>
-          <Link className='link' to='./CropCircle' >
+          <Link className='link' to='/CropCircle' >
             <button className='btn'>See More</button>
           </Link>
         </div>
@@ -59,13 +62,13 @@ const Projects = () => {
             <div className="skills__skill small">PHP</div>
             <div className="skills__skill small">GitHub</div>
           </div>
-          <Link className='link' to='./NataChocolate' >
+          <Link className='link' to='/NataChocolate' >
             <button className='btn projects-btn'>See More</button>
           </Link>
         </div>
 
         <div className="projects-column__image">
-          <Link to='./NataChocolate' >
+          <Link to='/NataChocolate' >
             <img className="projects-image" src={Nata} alt="mockup of accommodation app" />
           </Link>
         </div>
@@ -76,7 +79,7 @@ const Projects = () => {
 
       <div className="projects-card">
         <div className="projects-column__image">
-          <Link to='./TaranakiApp'>
+          <Link to='/TaranakiApp'>
             <img className="projects-image" src={Taranaki} alt="mockup" />
           </Link>
         </div>
@@ -92,7 +95,7 @@ const Projects = () => {
             <div className="skills__skill small">SCSS</div>
             <div className="skills__skill small">Javascript</div>
           </div>
-          <Link className='link' to='./TaranakiApp' >
+          <Link className='link' to='/TaranakiApp' >
             <button className='btn'>See More</button>
           </Link>
         </div>
@@ -113,13 +116,13 @@ const Projects = () => {
             <div className="skills__skill small">Node JS</div>
             <div className="skills__skill small">GitHub</div>
           </div>
-          <Link className='link' to='./Bookvibe' >
+          <Link className='link' to='/Bookvibe' >
             <button className='btn projects-btn'>See More</button>
           </Link>
         </div>
 
         <div className="projects-column__image">
-          <Link to='./bookvibe' >
+          <Link to='/Bookvibe' >
             <img className="projects-image" src={BookVibe} alt="mockup of accommodation app" />
           </Link>
         </div>
@@ -127,8 +130,8 @@ const Projects = () => {
 
 
     </div>
-
-
+   
+    </>
   )
 }
 

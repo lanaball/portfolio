@@ -1,3 +1,4 @@
+// STYLE
 import './_Skills.scss';
 
 
@@ -31,7 +32,6 @@ const Skills = () => {
           <div className="skills__skill small">Usability testing</div>
         </div>
         <div className="home_cta">
-          {/* <a href="./#contact" className="btn">Contact</a> */}
         </div>
       </div>
     </>
