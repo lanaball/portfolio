@@ -1,8 +1,9 @@
 /*--------------------   HEADER   -------------------- */
 .hero__wrapper {
     display: flex;
-    /* outline: 1px red solid; */
-    // padding-bottom: 8rem;
+    height: 85dvh;
+    width: 100dvw;
+    // outline: 1px red solid;
     margin: auto;
     padding-top: 1rem;
 }
@@ -13,53 +14,43 @@
 }
 
 .heading_primary {
-    font-size: var(--fs-32);
+    font-size: 3.5rem;
     font-weight: 600;
     letter-spacing: 3px;
     line-height: 1.2em;
     text-transform: uppercase;
     padding: 1rem 0;
-}
+
+    @media (min-width: 56.3em) {
+        font-size: var(--fs-72);
+    }
 
 @media (min-width: 75.5em) {
-    .heading_primary {
         font-size: var(--fs-88);
         width: 80%;
         padding-left: 1em;
-    }
+}
 }
 
 .text_primary {
-    font-size: var(--fs-18);
-    width: 80%;
+    font-size: var(--fs-24);
+    width: 100%;
     margin: 0;
     letter-spacing: 2px;
     // padding-bottom: 1rem;
     // justify-content: center;
+
+
+@media (min-width: 56.3em) {
+        font-size: var(--fs-32);
+        width: 80%;
 }
 
 @media (min-width: 75.5em) {
-    .text_primary {
         font-size: var(--fs-32);
         padding-left: 2.8em;
-    }
 }
-
-.home_cta {
-    padding: 1.5em 0;
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
-
-@media (min-width: 75.5em) {
-    .home_cta {
-        padding: 5em 0;
-    }
-}
-
-
-
 
 // ANIMATION TRIANGLE
 $triangle-base: 100px;
@@ -71,7 +62,7 @@ $animation-duration: 20s;
     align-items: center;
     overflow: hidden;
     margin: auto;
-    padding: 8rem 0;
+    padding: 2rem 0;
 }
 
 .logo {

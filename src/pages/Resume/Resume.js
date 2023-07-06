@@ -100,7 +100,7 @@ const Resume = () => {
                         </ul>
                     </section>
 
-                    <Link to="/contact"> <a className="btn contact-btn" href="#" >contact</a>
+                    <Link to="/contact"> <a className="btn contact-btn" href="#" >Contact</a>
                     </Link>
                 </div>
 

@@ -16,11 +16,11 @@ const Navbar = () => {
           <a href="/" className="header__home triangle"><span className="visually-hidden">(to home page)</span>
           </a>
 
-          <Link to="/about"> <a className="header__link" href="/about">about</a>
+          <Link to="/about"> <a className="header__link" href="#">about</a>
           </Link>
          
           
-          <Link to="/projects"><a className="header__link" href="#projects">projects</a>
+          <Link to="/projects"><a className="header__link" href="#">projects</a>
           </Link>
         
           <Link to="/contact"> <a className="header__link" href="#" >contact</a> 

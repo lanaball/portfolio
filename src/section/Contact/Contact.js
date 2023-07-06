@@ -19,9 +19,9 @@ const Contact = () => {
 
           <div className='main-grid'>
             <div className="contact-card">
-              <h6 className="contact-card__head">Let's get a coffee</h6>
+              <h5 className="contact-card__head">Let's get a coffee</h5>
               <div className='contact-card__email'>
-                <h5>Get in touch</h5>
+                <h6>Get in touch</h6>
                 <a href="mailto:allana.m.kennedy@gmail.com" > <EmailIcon /> allana.m.kennedy@gmail.com </a>
               </div>
 

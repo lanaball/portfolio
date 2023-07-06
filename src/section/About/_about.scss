@@ -1,72 +1,75 @@
 /*--------------------   ABOUT   -------------------- */
-#about {
-    // padding-top: 8rem;
+.about {
+    width: 100%;
+    padding-left: 10rem;
     // border: 1px solid rgb(151, 33, 20); 
-}
 
+    &-head {
+        /* border: 1px solid rgb(97, 67, 64); */
+        padding-left: 1.5em;
 
-.about-head {
-    /* border: 1px solid rgb(97, 67, 64); */
-    padding-left: 1.5em;
-
-    &__title {
-        color: var(--clr-accent);
-        font-size: var(--fs-24);
-        padding: 0;
-        margin: auto;
-    }
-}
-
-.about-body {
-    padding: 1em 0 10rem 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin: auto;
-    /* text-align: center; */
-
-    &__content {
-        font-size: var(--fs-20);
-        // outline: 1px solid salmon;
-        width: 80%;
+        &__title {
+            color: var(--clr-accent);
+            font-size: var(--fs-24);
+            padding: 0;
+            margin: auto;
+        }
     }
 
-    &__p {
-        text-align: center;
-        font-size: var(--fs-32);
-        line-height: .9;
-        padding: 1rem 0;
-    }
-}
-
-@media(min-width: 75.5em) {
-    .about-body {
+    &-body {
+        padding: 5em 0;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
+        margin: auto;
+        /* text-align: center; */
+
+        &__content {
+            font-size: var(--fs-20);
+            // outline: 1px solid salmon;
+            width: 80%;
+        }
+
+        &__p {
+            text-align: center;
+            font-size: var(--fs-32);
+            line-height: .9;
+            padding: 1rem 0;
+        }
+    }
+
+    &-footer {
+        margin-bottom: 5rem;
+    }
+
+    @media(min-width: 75.5em) {
+        .about-body {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            // gap: 1rem;
+        }
     }
 }
-
 
 /* ------------------- HEXAGON IMAGE ---------------------- */
 .hexa-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    // height: 100vh;
+    // justify-content: center;
+    // align-items: center;
+    height: 100%;
 }
 
 .hexa,
 .hexa div {
-    outline: 1px solid var(--clr-accent);
+    // outline: 1px solid var(--clr-accent);
     margin: 0 auto;
     transform-origin: 50% 50%;
     overflow: hidden;
     width: 350px;
-    height: 350px;
+    // height: 350px;
 
     @media (min-width: 75em) {
-        width: 400px;
+        // width: 400px;
         height: 400px;
     }
 }

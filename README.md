@@ -1,10 +1,4 @@
-installed: 
-
-npm install @mui/material @emotion/react @mui/icons-material
-
-npm install framer-motion
-
-$ npm install react-router-dom
+Hi, It's me Allana. This is my portfolio. 
 
 
 

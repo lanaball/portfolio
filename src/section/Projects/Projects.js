@@ -35,8 +35,7 @@ const Projects = () => {
         <div className="projects-column__content right-start">
           <h5 className="projects-card__title">Crop Circle</h5>
           <h6 className="projects-card__subtitle">Front and Back End Application Development</h6>
-          {/* <p className="projects-card__para"> During a time when the cost of produce in Aotearoa was skyrocketing we decided to create a community focused produce waste website. Crop Circle allows users to share their garden crops with others. </p> */}
-          <div className="skills">
+            <div className="skills">
             <div className="skills__skill small">MongoDB</div>
             <div className="skills__skill small">Express</div>
             <div className="skills__skill small">React</div>
@@ -55,9 +54,7 @@ const Projects = () => {
         <div className="projects-column__content">
           <h5 className="projects-card__title">Nata Chocolates</h5>
           <h6 className="projects-card__subtitle">WordPress Custom Design</h6>
-          {/* <p className="projects-card__para"> Creating a ecommerce WordPress site and custom theme for Nata. For this project, I worked with an artisanal chocolate maker in Costa Rica to showcase their exquisite chocolates. </p> */}
-
-          <div className="skills">
+           <div className="skills">
             <div className="skills__skill small">WordPress</div>
             <div className="skills__skill small">PHP</div>
             <div className="skills__skill small">GitHub</div>
@@ -87,9 +84,7 @@ const Projects = () => {
         <div className="projects-column__content right-start">
           <h5 className="projects-card__title">Accommodation App</h5>
           <h6 className="projects-card__subtitle">Single Page Javascript Application</h6>
-          {/* <p className="projects-card__para"> When the mountain and sea is calling...you need to visit Taranaki. This digital booking accommodation application allows users to book accommodation in Taranaki. </p> */}
-
-          <div className='skills'>
+            <div className='skills'>
             <div className="skills__skill small">HTML</div>
             <div className="skills__skill small">CSS</div>
             <div className="skills__skill small">SCSS</div>
