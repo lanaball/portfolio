@@ -46,6 +46,7 @@ const Resume = () => {
                                 <li>Lead the creation of WordPress websites using tools like Elementor, CSS, PHP, and Javascript, ensuring a seamless and engaging online experience for users. </li>
                                 <li> Employ industry-recommended practices in web development, emphasizing responsive design and SEO optimization, to deliver visually appealing and user-friendly websites.</li>
                                 <li>Proficiently maintain and troubleshoot WordPress websites, swiftly addressing issues to uphold optimal functionality and user satisfaction.</li>
+                                
                                 </ul>
 
                             
