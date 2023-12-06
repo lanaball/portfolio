@@ -36,8 +36,6 @@ const About = () => {
                         <p> I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career.
                         </p>
 
-                        <p className="about-body__p"> “A jack of all trades is a master of none, but oftentimes better than a master of one.” </p>
-
                         <a href="mailto:allana.m.kennedy@gmail.com"> <p> Let's get a coffee </p> </a>
 
 

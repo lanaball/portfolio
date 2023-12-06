@@ -38,16 +38,22 @@ const Resume = () => {
 
                     <section className='resume-body'>
                         <h5>Work Experience</h5>
-                        <div className='outpost'>
-                            <p>Roaster, <br /> Operations Manager, <br /> Social Media Manager </p>
-                            <a href="https://outpostcoffee.com/" target="_blank" rel="noreferrer">
-                                <p>Outpost Coffee Roasters, Toronto, Canada,   2015-2022</p>
-                            </a>
+                        <div className='work'>
+                            <a href="https://nimbl.nz/" target="_blank" rel="noreferrer"> Nimbl - Digital Agency </a>
+                            <p>Web Developer </p>
+                            <p>Auckland, New Zealand  <span> 2023-present </span> </p>
+                            <ul className='nimbl'>
+                                <li>Lead the creation of WordPress websites using tools like Elementor, CSS, PHP, and Javascript, ensuring a seamless and engaging online experience for users. </li>
+                                <li> Employ industry-recommended practices in web development, emphasizing responsive design and SEO optimization, to deliver visually appealing and user-friendly websites.</li>
+                                <li>Proficiently maintain and troubleshoot WordPress websites, swiftly addressing issues to uphold optimal functionality and user satisfaction.</li>
+                                </ul>
 
+                            
+
+                             <a href="https://outpostcoffee.com/" target="_blank" rel="noreferrer" className='outpost'> Outpost Coffee Roasters  </a>
+                            <p>Roaster, Operations Manager, Social Media Manager </p>
+                            <p>Toronto, Canada  <span> 2015-2022 </span> </p>
                             <ul>
-                                <li>
-                                    Demonstrated proficiency in manual and computerized roasting techniques, resulting in consistent quality and flavor profiles.
-                                </li>
                                 <li>
                                     Managed multiple social media accounts with a consistent weekly publishing schedule. Created engaging social media campaigns, including challenges and giveaways, to increase brand awareness and customer engagement.
                                 </li>
@@ -57,11 +63,12 @@ const Resume = () => {
                                 <li>
                                     Maintained and curated a coffee blog on a Shopify account, sharing industry insights, brewing tips, and showcasing Outpost Coffee Roasters' products.
                                 </li>
-                                <li>
-                                    Supported a team of junior staff members to assist with staff discipline, training, instructing new methods, morale, and scheduling of work.
-                                </li>
-                            </ul>
+                                </ul>
+
+
+                        
                         </div>
+                      
                     </section>
 
                     <section className='resume-body'>
