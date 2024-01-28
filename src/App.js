@@ -10,11 +10,11 @@ import Nicole from './pages/Nicole/Nicole';
 import CropCircle from './pages/CropCircle/CropCircle';
 import Cannons from './pages/Cannons/Cannons';
 import Resume from './pages/Resume/Resume';
-import NataChocolate from './pages/NataChocolates/NataChocolate';
 import BookVibe from './pages/BookVibe/BookVibe';
 import About from './section/About/About';
 import Projects from './section/Projects/Projects';
 import Contact from './section/Contact/Contact';
+import NataChocolate from './pages/NataChocolates/NataChocolate';
 
 
 
