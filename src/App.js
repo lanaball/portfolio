@@ -6,8 +6,9 @@ import './App.scss';
 
 // COMPONENTS
 import LandingPage from './pages/LandingPage/LandingPage'
-import TaranakiApp from './pages/TaranakiApp/TaranakiApp';
+import Nicole from './pages/Nicole/Nicole';
 import CropCircle from './pages/CropCircle/CropCircle';
+import Cannons from './pages/Cannons/Cannons';
 import Resume from './pages/Resume/Resume';
 import NataChocolate from './pages/NataChocolates/NataChocolate';
 import BookVibe from './pages/BookVibe/BookVibe';
@@ -24,9 +25,10 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/cropcircle' element={<CropCircle />} />
-          <Route path='/taranakiapp' element={<TaranakiApp />} />
+          <Route path='/nicole' element={<Nicole />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/natachocolate' element={<NataChocolate />} />
+          <Route path='/cannons' element={<Cannons />} />
           <Route path='/bookvibe' element={<BookVibe />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />

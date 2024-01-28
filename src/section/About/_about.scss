@@ -46,6 +46,13 @@
 
     &-footer {
         margin-bottom: 5rem;
+        margin-top: auto;
+        
+        .about-btn {
+            position: absolute;
+            right: 2em;
+            bottom: 2.5em;
+        }
     }
 
     @media(min-width: 75.5em) {

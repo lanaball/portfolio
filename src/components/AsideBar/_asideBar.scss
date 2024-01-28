@@ -32,12 +32,12 @@ svg {
 .dark-mode-toggle {
     color: var(--foreground);
     border: 2px solid currentColor;
-    padding: 3px;
     background: transparent;
     cursor: pointer;
     border-radius: 8px;
     width: 30px;
     height: 30px;
+    margin-left: 3px;
 }
 
 .dark-mode-toggle:hover {

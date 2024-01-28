@@ -5,10 +5,13 @@ import BackButton from '../../components/BackButton/BackButton';
 import './_bookvibe.scss';
 
 // IMAGES
-import BookVibeDisplay from '../../assets/images/bookvibe/Frame 38.png';
-import BookHome from '../../assets/images/bookvibe/Home.png';
-import Bookvibe from '../../assets/images/bookvibe/bookmu.png';
-
+import Bookvibe from '../../assets/images/bookvibe/BookVibeMock.png';
+import BVHome from '../../assets/images/bookvibe/Home (with list view).png';
+import BVHome1 from '../../assets/images/bookvibe/Home.png';
+import BVLanding from '../../assets/images/bookvibe/Landing.png';
+import BVAddBook from '../../assets/images/bookvibe/Add Book.png';
+import BVDetail from '../../assets/images/bookvibe/Book Detail.png';
+import BVUpdate from '../../assets/images/bookvibe/Update Entry.png';
 
 
 export default function BookVibe() {
@@ -25,24 +28,18 @@ export default function BookVibe() {
                     </div>
 
                 <div className="content">
-                    <h2>About</h2>
-                    <p>
-                        Book Vibe was a playful experiment aimed at better understanding how to create applications using the React framework. The app encourages users to review a book that they have recently read and assign it a colour based on the associated vibe. </p>
-
-
-                    <section>
-                        <h2>Design</h2>
-                        <div>
-                            <img src={BookVibeDisplay} alt="display of prototype" />
-                        </div>
-                    </section>
+                    <img className='main-page__image BV-image' src={BVLanding} alt="home view" />  
+                    <img className='main-page__image BV-image' src={BVHome1} alt="home view" />    
+                    <img className='main-page__image BV-image' src={BVHome} alt="home view" /> 
+                    <img className='main-page__image BV-image' src={BVAddBook} alt="home view" /> 
+                    <img className='main-page__image BV-image' src={BVDetail} alt="home view" />  
+                    <img className='main-page__image' src={BVUpdate} alt="home view" />  
 
                     <section>
-                        <h2>Development</h2>
-                        <p>Technical tools used: <br /> MongoDB <br /> Express <br /> React <br /> Node Js <br /> GitHub Collaboration <br /> LucidCharts <br /> ClickUp <br /> Teams   </p>
+                       
 
                         <div className='content__box'>
-                            <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/file/diZQs31jFVh34c8TdVSjhR/Book-Vibe?type=design&node-id=0%3A1&mode=design&t=tDmcUJaBHyVOIAp1-1">Figma Design</a>
+                            {/* <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/file/diZQs31jFVh34c8TdVSjhR/Book-Vibe?type=design&node-id=0%3A1&mode=design&t=tDmcUJaBHyVOIAp1-1">Figma Design</a> */}
 
                             <a className='btn project-btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/bookvibe-3.2.git">Github Repository</a>
                         </div>

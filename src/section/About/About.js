@@ -1,6 +1,6 @@
 // IMPORTS
 import React from "react";
-import oceanView from '../../assets/images/portfolioPic.jpeg';
+import oceanView from '../../assets/images/portfolioPic.jpg';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -27,13 +27,11 @@ const About = () => {
                 <div className="about-body">
                     <div className="about-body__content">
 
-                        <p> I'm a recent graduate in UX/UI Design and Web Development.</p>
-
-                        <p> With a work history in New Zealand, the UK and Canada, and a degree in Psychology I have an interest in observing and understanding the how and why people do the things they do.</p>
-
-                        <p> Years of experience as a coffee roaster has helped me develop strong skills in teamwork and problem solving needed for web development. </p>
-
-                        <p> I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career.
+                        <p> I am a recent graduate in UX/UI Design and Web Development, making a deliberate career transition after two decades of working in the hospitality industry. My professional journey has taken me across the world, including New Zealand, Australia, the UK, and Canada, my global experiences have instilled adaptability, resilience, and an open-minded approach to problem-solving.
+                           <br /> 
+                        With a unique foundation as a coffee roaster, I've cultivated a strong teamwork ethic and problem-solving skills—qualities that translate into the collaborative and solution-oriented nature of web development. The years of refining my craft in the art of roasting have not only deepened my appreciation for meticulous detail but also fostered a keen sense of creativity and innovation.
+                            <br />
+                        Outside the office you'll find me dreaming of swimming, reading and saying hello to all the dogs.
                         </p>
 
                         <a href="mailto:allana.m.kennedy@gmail.com"> <p> Let's get a coffee </p> </a>
@@ -57,7 +55,7 @@ const About = () => {
 
             <Skills />
             <div className="about-footer">
-                <Link to="/contact"> <a className="btn contact-btn" href="#" >Contact</a>
+                <Link to="/contact"> <a className="btn contact-btn about-btn" href="#" >Contact</a>
                 </Link>
             </div>
 

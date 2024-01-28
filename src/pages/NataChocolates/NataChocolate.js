@@ -5,9 +5,23 @@ import BackButton from "../../components/BackButton/BackButton";
 import './_nataChocolate.scss';
 
 // IMAGES
-import Design from '../../assets/images/nata/NataDisplay3.png';
-import Development2 from '../../assets/images/nata/screenshot2.png';
-import Nata from '../../assets/images/nata/natamock.png';
+import Nata from '../../assets/images/nata/NataMock.png';
+import nataCover from '../../assets/images/nata/COVER PAGE.png';
+import nataBrief from '../../assets/images/nata/PRJECT BRIEF.png';
+import nataMap from '../../assets/images/nata/EMPATHY MAP.png';
+import nataPersona from '../../assets/images/nata/USER PERSONA.png';
+import nataPersona2 from '../../assets/images/nata/USER PERSONA2.png';
+import nataUser from '../../assets/images/nata/USER TESTING.png';
+import nataEnd from '../../assets/images/nata/end.png';
+import nataMood from '../../assets/images/nata/moodboard.png';
+import nataProto from '../../assets/images/nata/PROTOTYPE.png';
+import nataProto2 from '../../assets/images/nata/PROTOTYPE2.png';
+import nataResults from '../../assets/images/nata/RESULTS.png';
+import nataSite from '../../assets/images/nata/SITEMAP.png';
+import nataStyle from '../../assets/images/nata/style tile.png';
+import nataStyle2 from '../../assets/images/nata/STYLE TILE2.png';
+import nataWire from '../../assets/images/nata/WIREFRAMES.png';
+import nataWire2 from '../../assets/images/nata/WIREFRAMES2.png';
 
 
 const NataChocolate = () => {
@@ -18,37 +32,39 @@ const NataChocolate = () => {
     <>
       <div className='main-page'>
         <BackButton pageTitle={pageTitle} />
-        <main className="main-page__body">
+        <main className="main-page__body" id="nata">
 
           <div >
-             <img className="main-page__image" src={Nata} alt="mockup of accommodation app" />
+             <img className="main-page__image" src={Nata} alt="Nata UX Report - MOCK" />
           </div>
           <div>
             <div className='content'>
-              <h2>About</h2>
-              <p>
-                Nata Craft Cacao are looking to create a website to elevate their business, they have a focus on local markets in Quepos, Costa Rica and word of mouth but want a website to showcase their story, products, events they run and a blog that Natalia writes.
-              </p>
-              <p>
-                The website features a modern and elegant design, reflecting the brand's image and values. A carefully crafted user experience strategy was implemented, focusing on intuitive navigation, captivating visuals, and seamless functionality.
-              </p>
-              <p>
-                The WordPress CMS was customized to enable easy content management, allowing the client to update and showcase their products effortlessly. A training documentation was provided to guide the client on managing the website using the WordPress CMS effectively.
-              </p>
-               <section>
-                <h2>Design</h2>
+              
           
-                <img className='nata-image__design' src={Design} alt="images of figma design" />
+               <section className="nata-design">
+          
+                <div className='nata-image__design'>
+                  <img className="nata-image__report" src={nataCover} alt="Nata UX Report - Cover" />
+                  <img className="nata-image__report" src={nataBrief} alt="Nata UX Report - Client Brief" />
+                  <img className="nata-image__report" src={nataMap} alt="Nata UX Report - Emapthy Map" />
+                  <img className="nata-image__report" src={nataPersona} alt="Nata UX Report - Persona" />
+                  <img className="nata-image__report" src={nataPersona2} alt="Nata UX Report - Persona2" />
+                  <img className="nata-image__report" src={nataSite} alt="Nata UX Report - Site Map" />
+                  <img className="nata-image__report" src={nataMood} alt="Nata UX Report - MoodBoard" />
+                  <img className="nata-image__report" src={nataStyle} alt="Nata UX Report - StyleTile" />
+                  <img className="nata-image__report" src={nataStyle2} alt="Nata UX Report - StyleTile2" />
+                  <img className="nata-image__report" src={nataWire} alt="Nata UX Report - Wireframes" />
+                  <img className="nata-image__report" src={nataWire2} alt="Nata UX Report - Wireframes2" />
+                  <img className="nata-image__report" src={nataUser} alt="Nata UX Report - User Testing" />
+                  <img className="nata-image__report" src={nataResults} alt="Nata UX Report - User Testing Results" />
+                  <img className="nata-image__report" src={nataProto} alt="Nata UX Report - Prototype" />
+                  <img className="nata-image__report" src={nataProto2} alt="Nata UX Report - Prototype" />
+                  <img className="nata-image__report" src={nataEnd} alt="Nata UX Report - End" />
+                  </div>
               </section>
 
               <section>
-                <h2>Development</h2>
-                <p>
-                  Custom Theme Development <br />
-                  The process of building a custom theme required developing an in-depth understanding of php to build efficient code. Creating custom posts and taxonomies to allow posts to be organized more efficiently for the client to upload content.
-                </p>
-                <img className='nata-image__development' src={Development2} alt="screenshot of website" />
-
+           
                 <div className="content__box">
                   <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=117-1755&scaling=scale-down-width&page-id=117%3A1429&starting-point-node-id=117%3A1755&mode=design">Figma Report</a>
 

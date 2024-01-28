@@ -1,76 +1,88 @@
   .resume {
-      padding-bottom: 5rem;
+    padding-bottom: 5rem;
 
-      &-head {
-          padding-right: 1.8em;
-          padding-left: 1.5em;
+    &-head {
+      padding-right: 1.8em;
+      padding-left: 1.5em;
 
-          &__p {
-              font-size: var(--fs-18);
-              color: grey;
-          }
+      &__p {
+        font-size: var(--fs-18);
+        color: grey;
+      }
+    }
+
+    &-body {
+      // border: 1px red solid;
+      width: 80%;
+      margin: auto;
+      padding-top: 1em;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+
+      a {
+        font-size: 2em;
       }
 
-      &-body {
-          // border: 1px red solid;
-          width: 80%;
-          margin: auto;
-          padding-top: 1em;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 1rem;
 
-        a{
-            font-size: 2em;
-        }
-
-
-          ul {
-              padding-top: 1rem;
-          }
-
-          li {
-            font-size: 2em;
-              list-style-type: disc;
-              padding: 0.5rem;
-          }
-
-          span {
-            float: right
-          }
-         
-          p {
-              font-size: 2em;
-              padding: 0;
-              margin: 0;
-          }
-
-          &__sec {
-              margin-top: 2rem;
-              padding-bottom: 2rem;
-          }
+      ul {
+        padding-top: 1rem;
       }
-  }
 
-  .contact-btn {
-      width: 15%;
+      li {
+        font-size: 2em;
+        list-style-type: disc;
+        padding: 0.5rem;
+      }
+
+      span {
+        float: right
+      }
+
+      p {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+      }
+
+      &__sec {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+      }
+    }
+
+    a {
+      color: var(--clr-accent);
+      font-size: 2em;
+    }
+
+    a:hover {
+      color: var(--clr-dark);
+    }
+
+    .resume-a {
+      font-size: 1em;
+    }
+
+
+    .resume-btn {
+      width: 10%;
       position: absolute;
-      right: 21%;
+      right: 5%;
+      color: var(--foreground);
+      font-size: 1.6rem !important;
+      padding: 5px ;
+    }
+
+    .resume-btn:hover {
+      color: var(--background);
+    }
   }
 
   .work {
-      padding-top: 5rem;
+    padding-top: 5rem;
   }
 
   .nimbl {
     padding-bottom: 5rem;
-  }
-
-  a {
-    color: var(--clr-accent);
-    font-size: 18px;
-  }
-
-  a:hover {
-    color: var(--clr-dark);
   }

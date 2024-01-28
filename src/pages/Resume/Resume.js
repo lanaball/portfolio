@@ -19,7 +19,7 @@ const Resume = () => {
             <main className='wrapper'>
                 <div className='resume'>
                     <h1 className='resume-head triangle-steady'> Resume</h1>
-                    <p className='resume-head__p'>This is a short version, please <a href="mailto:allana.m.kennedy@gmail.com" > get in touch </a>  for the full version</p>
+                    <p className='resume-head__p'>This is a short version, please  <a className='resume-a'  href="mailto:allana.m.kennedy@gmail.com" > get in touch </a>  for the full version</p>
 
                     <section className='resume-body'>
                         <h5>Key Attributes</h5>
@@ -51,7 +51,7 @@ const Resume = () => {
 
                             
 
-                             <a href="https://outpostcoffee.com/" target="_blank" rel="noreferrer" className='outpost'> Outpost Coffee Roasters  </a>
+                             {/* <a href="https://outpostcoffee.com/" target="_blank" rel="noreferrer" className='outpost'> Outpost Coffee Roasters  </a>
                             <p>Roaster, Operations Manager, Social Media Manager </p>
                             <p>Toronto, Canada  <span> 2015-2022 </span> </p>
                             <ul>
@@ -65,7 +65,7 @@ const Resume = () => {
                                     Maintained and curated a coffee blog on a Shopify account, sharing industry insights, brewing tips, and showcasing Outpost Coffee Roasters' products.
                                 </li>
                                 </ul>
-
+ */}
 
                         
                         </div>
@@ -108,7 +108,7 @@ const Resume = () => {
                         </ul>
                     </section>
 
-                    <Link to="/contact"> <a className="btn contact-btn" href="#" >Contact</a>
+                    <Link to="/contact"> <a className="btn contact-btn resume-btn" href="#" >Contact</a>
                     </Link>
                 </div>
 
