@@ -5,7 +5,7 @@ import BackButton from "../../components/BackButton/BackButton";
 import './_nataChocolate.scss';
 
 // IMAGES
-import Nata from '../../assets/images/nata/NataMock.png';
+
 import nataCover from '../../assets/images/nata/COVER PAGE.png';
 import nataBrief from '../../assets/images/nata/PRJECT BRIEF.png';
 import nataMap from '../../assets/images/nata/EMPATHY MAP.png';
@@ -35,7 +35,7 @@ const NataChocolate = () => {
         <main className="main-page__body" id="nata">
 
           <div >
-             <img className="main-page__image" src={Nata} alt="Nata UX Report - MOCK" />
+             
           </div>
           <div>
             <div className='content'>
