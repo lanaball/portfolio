@@ -47,25 +47,6 @@ const Resume = () => {
                                 <li>Proficiently maintain and troubleshoot WordPress websites, swiftly addressing issues to uphold optimal functionality and user satisfaction.</li>
                                 
                                 </ul>
-
-                            
-
-                             {/* <a href="https://outpostcoffee.com/" target="_blank" rel="noreferrer" className='outpost'> Outpost Coffee Roasters  </a>
-                            <p>Roaster, Operations Manager, Social Media Manager </p>
-                            <p>Toronto, Canada  <span> 2015-2022 </span> </p>
-                            <ul>
-                                <li>
-                                    Managed multiple social media accounts with a consistent weekly publishing schedule. Created engaging social media campaigns, including challenges and giveaways, to increase brand awareness and customer engagement.
-                                </li>
-                                <li>
-                                    Developed and launched the innovative "Coffee For Change" initiative, raising over CAD$3,000 for charities in Toronto and showcasing illustrations by a coworker.
-                                </li>
-                                <li>
-                                    Maintained and curated a coffee blog on a Shopify account, sharing industry insights, brewing tips, and showcasing Outpost Coffee Roasters' products.
-                                </li>
-                                </ul>
- */}
-
                         
                         </div>
                       
@@ -107,7 +88,7 @@ const Resume = () => {
                         </ul>
                     </section>
 
-                    <Link to="/contact"> <a className="btn contact-btn resume-btn" href="#" >Contact</a>
+                    <Link to="/contact"> <a className="btn resume-btn" href="/contact" >Contact</a>
                     </Link>
                 </div>
 

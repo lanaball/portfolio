@@ -19,18 +19,19 @@ const About = () => {
         <>
             <AsideBar />
             <Navbar />
-
+   
             <div id="about" className="about">
-
                 <h1 className="about-head triangle-steady"> About Me</h1>
                 <h4 className="about-head__title">Creative, Globetrotter, Coffeeholic, Developer</h4>
                 <div className="about-body">
                     <div className="about-body__content">
 
                         <p> I am a recent graduate in UX/UI Design and Web Development, making a deliberate career transition after two decades of working in the hospitality industry. My professional journey has taken me across the world, including New Zealand, Australia, the UK, and Canada, my global experiences have instilled adaptability, resilience, and an open-minded approach to problem-solving.
-                           <br /> 
+                            <br /> 
+                             <br /> 
                         With a unique foundation as a coffee roaster, I've cultivated a strong teamwork ethic and problem-solving skills—qualities that translate into the collaborative and solution-oriented nature of web development. The years of refining my craft in the art of roasting have not only deepened my appreciation for meticulous detail but also fostered a keen sense of creativity and innovation.
                             <br />
+                             <br /> 
                         Outside the office you'll find me dreaming of swimming, reading and saying hello to all the dogs.
                         </p>
 
@@ -49,16 +50,15 @@ const About = () => {
                             </div>
                         </motion.div>
                     </div>
-                </div>
-            </div>
-
-
-            <Skills />
+                     <Skills />
+                    </div>
+                  
+           
             <div className="about-footer">
                 <Link to="/contact"> <a className="btn contact-btn about-btn" href="#" >Contact</a>
                 </Link>
             </div>
-
+  </div>
 
         </>
     )
