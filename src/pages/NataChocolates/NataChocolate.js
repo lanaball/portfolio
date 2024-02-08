@@ -5,7 +5,6 @@ import BackButton from "../../components/BackButton/BackButton";
 import './_nataChocolate.scss';
 
 // IMAGES
-
 import nataCover from '../../assets/images/nata/COVER PAGE.png';
 import nataBrief from '../../assets/images/nata/PRJECT BRIEF.png';
 import nataMap from '../../assets/images/nata/EMPATHY MAP.png';

@@ -9,7 +9,6 @@ import CropCircle from '../../assets/images/cropcircle/CropMock.png';
 import BookVibe from '../../assets/images/bookvibe/BookVibeMock.png';
 import Cannons from '../../assets/images/cannons/CannonsMock.png';
 import NicoleImage from '../../assets/images/nicole/Nicolemock.png';
-import NataChoc from '../../assets/images/nata/NataMock.png';
 
 // COMPONENTS
 import AsideBar from '../../components/AsideBar/AsideBar';
@@ -99,7 +98,7 @@ const Projects = () => {
 
         <div className="projects-column__image">
           <Link to='/NataChocolate' >
-            <img className="projects-image" src={NataChoc} alt="mockup of accommodation app" />
+          
           </Link>
         </div>
       </div>
