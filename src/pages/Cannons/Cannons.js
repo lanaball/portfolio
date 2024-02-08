@@ -23,7 +23,7 @@ export default function Cannons() {
 
                     <div className='content'>
                         <div>
-                            <h2></h2>
+                          
 
                             <section>
                                 <h2>Coming Soon</h2>

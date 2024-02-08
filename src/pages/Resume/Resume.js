@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 
 // COMPONENTS
-import BackButton from '../../components/BackButton/BackButton';
 import AsideBar from '../../components/AsideBar/AsideBar';
 import Navbar from '../../components/Navbar/Navbar';
 
