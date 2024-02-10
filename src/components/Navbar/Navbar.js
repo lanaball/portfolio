@@ -1,12 +1,24 @@
 // ------- IMPORT ----------
 import { Link } from "react-router-dom";
-import React from "react";
-
+import React, { useState } from "react";
+import MenuIcon from '@mui/icons-material/Menu';
 // -------- STYLE --------
 import './_Navbar.scss'
 
 
 const Navbar = () => {
+  
+  const toggleNavBar = () => {
+    //  setShowMenu(!showMenu);
+    var menuIcon = document.querySelector('.menu-icon');
+    var navLinks = document.querySelector('.header__links');
+
+    menuIcon.addEventListener('click', function () {
+      navLinks.classList.toggle('show');
+    });
+  }
+
+
   return (
     <header className="header">
       <h2 className="visually-hidden">Header</h2>
@@ -15,23 +27,16 @@ const Navbar = () => {
           <h2 className="visually-hidden">Navigation</h2>
           <a href="/" className="header__home triangle"><span className="visually-hidden">(to home page)</span>
           </a>
-
-          <Link to="/about"> <a className="header__link" href="#">about</a>
-          </Link>
-         
-          
-          <Link to="/projects"><a className="header__link" href="#">projects</a>
-          </Link>
-        
-          <Link to="/contact"> <a className="header__link" href="#" >contact</a> 
-          </Link>
-         
-         
-          <Link to="/resume"><a className="header__link" href="#">resume</a>
-          </Link>  
-        </nav>
-      </div>
-    </header>
+     <div className="menu-icon material-icons" onClick={toggleNavBar}>  <MenuIcon  /></div> 
+      <ul className="header__links"> 
+        <li className="header__link"><Link className="header__link" to="/about">About</Link></li>
+        <li className="header__link"><Link className="header__link" to="/projects">Projects</Link></li>
+        <li className="header__link"><Link className="header__link" to="/contact">Contact</Link></li>
+        <li className="header__link"><Link className="header__link" to="/resume">Resume</Link></li>
+      </ul>
+    </nav>
+  </div>
+</header>
   )
 }
 

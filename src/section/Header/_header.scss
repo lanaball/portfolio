@@ -3,54 +3,66 @@
     display: flex;
     height: 85dvh;
     width: 100dvw;
-    // outline: 1px red solid;
     margin: auto;
     padding-top: 1rem;
 }
 
 .hero__name {
-    // color: var(--clr-dark);
     font-weight: 900;
 }
 
 .heading_primary {
-    font-size: 3.5rem;
+    font-size: var(--fs-88);
     font-weight: 600;
     letter-spacing: 3px;
     line-height: 1.2em;
     text-transform: uppercase;
     padding: 1rem 0;
+    padding-left: .8em;
 
-    @media (min-width: 56.3em) {
-        font-size: var(--fs-72);
-    }
 
-@media (min-width: 75.5em) {
-        font-size: var(--fs-88);
-        width: 80%;
-        padding-left: 1em;
-}
 }
 
 .text_primary {
-    font-size: var(--fs-24);
-    width: 100%;
+    font-size: var(--fs-32);
+    padding-left: 2em;
+    width: 80%;
     margin: 0;
     letter-spacing: 2px;
-    // padding-bottom: 1rem;
-    // justify-content: center;
+}
 
 
-@media (min-width: 56.3em) {
+// RESPONSIVE
+@media (max-width: 1025px) {
+    .text_primary {
         font-size: var(--fs-32);
-        width: 80%;
+        padding-left: 2em;
+        width: 100%;
+    }
 }
 
-@media (min-width: 75.5em) {
-        font-size: var(--fs-32);
-        padding-left: 2.8em;
+
+@media (max-width: 767px) {
+
+    #header .wrapper {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .heading_primary {
+        font-size: 58px;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .text_primary {
+        font-size: 24px;
+        padding-left: 0;
+        text-align: center;
+    }
 }
-}
+
 
 // ANIMATION TRIANGLE
 $triangle-base: 100px;

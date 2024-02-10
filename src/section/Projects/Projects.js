@@ -64,7 +64,7 @@ const Projects = () => {
         <div className="projects-column__content right-start">
           <h5 className="projects-card__title">Crop Circle</h5>
           <h6 className="projects-card__subtitle">Front and Back End Application Development</h6>
-            <div className="skills">
+            <div className="skills skills-right">
             <div className="skills__skill small">MongoDB</div>
             <div className="skills__skill small">Express</div>
             <div className="skills__skill small">React</div>
@@ -74,7 +74,7 @@ const Projects = () => {
                <div className="skills__skill small">UX/UI Report</div>
           </div>
           <Link className='link' to='/CropCircle' >
-            <button className='btn'>See More</button>
+            <button className='btn pro-btn'>See More</button>
           </Link>
         </div>
       </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                <div className="skills__skill small">UX/UI Report</div>
           </div>
           <Link className='link' to='/NataChocolate' >
-            <button className='btn projects-btn'>See More</button>
+            <button className='btn pro-btn'>See More</button>
           </Link>
         </div>
 
@@ -117,13 +117,13 @@ const Projects = () => {
         <div className="projects-column__content right-start">
           <h5 className="projects-card__title">Professor Bernhardt</h5>
           <h6 className="projects-card__subtitle">WordPress Custom Design</h6>
-            <div className='skills'>
+            <div className='skills skills-right'>
             <div className="skills__skill small">HTML</div>
             <div className="skills__skill small">CSS</div>        
             <div className="skills__skill small">Figma</div>
           </div>
           <Link className='link' to='/Nicole' >
-            <button className='btn'>See More</button>
+            <button className='btn pro-btn'>See More</button>
           </Link>
         </div>
       </div>
@@ -145,13 +145,13 @@ const Projects = () => {
             <div className="skills__skill small">Figma</div>
           </div>
           <Link className='link' to='/Bookvibe' >
-            <button className='btn projects-btn'>See More</button>
+            <button className='btn pro-btn'>See More</button>
           </Link>
         </div>
 
         <div className="projects-column__image">
           <Link to='/Bookvibe' >
-            <img className="projects-image" src={BookVibe} alt="mockup of accommodation app" />
+            <img className="projects-image" src={BookVibe} alt="mockup book" />
           </Link>
         </div>
       </div>

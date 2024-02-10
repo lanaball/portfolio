@@ -64,14 +64,11 @@
       font-size: 1em;
     }
 
-
     .resume-btn {
-      width: 10%;
       position: absolute;
-      right: 5%;
+      right: 7%;
       color: var(--foreground);
       font-size: 1.2em;
-      padding: .5em;
     }
 
     .resume-btn:hover {
@@ -85,4 +82,67 @@
 
   .nimbl {
     padding-bottom: 5rem;
+  }
+
+  // RESPONSIVE
+  @media (max-width: 1025px) and (min-width: 767px) {
+    .resume {
+      width: 100%;
+    }
+
+    .resume-head__p {
+      text-align: center;
+    }
+
+    .resume h5 {
+      font-size: 28px;
+    }
+
+    .nimbl {
+      padding-bottom: 0;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+
+    .resume-head {
+      font-size: 40px;
+      padding: 40px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .resume .triangle-steady::before {
+      display: none;
+    }
+
+    .resume-head__p {
+      text-align: center;
+    }
+
+    .resume-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding-bottom: 50px;
+    }
+
+    .resume h5 {
+      text-align: center;
+      font-size: 28px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .resume-body__sec {
+      padding: 0;
+    }
+
+    .nimbl {
+      padding-bottom: 0;
+    }
   }

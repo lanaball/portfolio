@@ -14,8 +14,8 @@ const Contact = () => {
 
   return (
     <>
-       <AsideBar />
-        <Navbar />
+      <AsideBar />
+      <Navbar />
 <div id='contact' className="wrapper">
   <h1 className="triangle-steady contact-header">Contact</h1>
   <div className='contact'>

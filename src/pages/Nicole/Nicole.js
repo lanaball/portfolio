@@ -29,11 +29,11 @@ export default function Nicole() {
 
                     <div className='content'>
                         <div>
-                            <img className='main-page__image BV-image' src={NicoleCover} alt="" />
-                            <img className='main-page__image BV-image' src={NicoleBrief} alt="" />
-                            <img className='main-page__image BV-image' src={NicoleIcons} alt="" />
-                            <img className='main-page__image BV-image' src={NicoleDesigns} alt="" />
-                            <img className='main-page__image BV-image' src={NicoleSite} alt="" />
+                            <img className='BV-image' src={NicoleCover} alt="" />
+                            <img className='BV-image' src={NicoleBrief} alt="" />
+                            <img className='BV-image' src={NicoleIcons} alt="" />
+                            <img className='BV-image' src={NicoleDesigns} alt="" />
+                            <img className='BV-image' src={NicoleSite} alt="" />
                             
 
 
