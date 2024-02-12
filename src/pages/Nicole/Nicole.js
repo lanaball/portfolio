@@ -5,7 +5,6 @@ import BackButton from '../../components/BackButton/BackButton';
 import './_Nicole.scss';
 
 // IMAGES
-import NicoleImage from '../../assets/images/nicole/Nicolemock.png';
 import NicoleCover from '../../assets/images/nicole/COVER PAGE.png';
 import NicoleBrief from '../../assets/images/nicole/brief.png';
 import NicoleIcons from '../../assets/images/nicole/MOODBOARD.png';
@@ -19,15 +18,11 @@ export default function Nicole() {
 
     return (
         <>
-            <div className='main-page'>
+            <div className='main-page' id='nicole'>
                 <BackButton pageTitle={pageTitle} />
 
                 <main className='main-page__body'>
-                    <div>
-                        <img className='main-page__image' src={NicoleImage} alt="" />
-                    </div>
-
-                    <div className='content'>
+                  <div className='content'>
                         <div>
                             <img className='BV-image' src={NicoleCover} alt="" />
                             <img className='BV-image' src={NicoleBrief} alt="" />
@@ -38,7 +33,7 @@ export default function Nicole() {
 
 
                             <div className='content__box'>         
-                                <a className='btn project-btn' target='__blank' href="https://www.nicolebernhardt.com/">View Site</a>
+                                <a className='btn' target='__blank' href="https://www.nicolebernhardt.com/">View Site</a>
                             </div>
                         </div>
                     </div>

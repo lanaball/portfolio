@@ -17,7 +17,7 @@ const Contact = () => {
       <AsideBar />
       <Navbar />
 <div id='contact' className="wrapper">
-  <h1 className="triangle-steady contact-header">Contact</h1>
+  {/* <h1 className="triangle-steady contact-header">Contact</h1> */}
   <div className='contact'>
     <div className="contact-card">
       <div className='contact-card__content'>

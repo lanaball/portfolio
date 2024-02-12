@@ -41,7 +41,7 @@ export default function BookVibe() {
                         <div className='content__box'>
                             {/* <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/file/diZQs31jFVh34c8TdVSjhR/Book-Vibe?type=design&node-id=0%3A1&mode=design&t=tDmcUJaBHyVOIAp1-1">Figma Design</a> */}
 
-                            <a className='btn project-btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/bookvibe-3.2.git">Github Repository</a>
+                            <a className='btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/bookvibe-3.2.git">Github Repository</a>
                         </div>
                     </section>
                 </div>

@@ -9,10 +9,10 @@ a:hover {
     color: var(--clr-accent);
 }
 
- .header__home {
+.header__home {
     flex: 0 1 auto;
     margin-inline-end: auto;
- }
+}
 
 .header__link {
     font-size: 1rem;
@@ -20,8 +20,8 @@ a:hover {
     color: var(--text1);
     font-family: var(--ff-title);
     text-decoration: none;
-        font-size: 1.5rem;
-            padding: 0 10px;
+    font-size: 1.5rem;
+    padding: 0 10px;
 }
 
 .header {
@@ -73,7 +73,7 @@ a:hover {
         flex-direction: column;
         z-index: 12;
         width: 100%;
-        }
+    }
 
     .header__link {
         padding: 10px;

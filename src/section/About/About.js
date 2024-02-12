@@ -20,8 +20,8 @@ return (
  <AsideBar />
  <Navbar />
    
-<div id="about" className="about">
-    <h1 className="about-head triangle-steady"> About Me</h1>
+<div id="about" className="about wrapper">
+    {/* <h1 className="about-head triangle-steady"> About Me</h1> */}
     <h4 className="about-head__title">Creative, Globetrotter, Coffeeholic, Developer</h4>
     <div className="about-body">
         <div className="about-body__content">

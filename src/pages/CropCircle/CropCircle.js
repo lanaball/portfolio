@@ -5,7 +5,6 @@ import BackButton from '../../components/BackButton/BackButton';
 import './_CropCircle.scss';
 
 // IMAGES
-import mockup from '../../assets/images/cropcircle/CropMock.png';
 import cropCover from '../../assets/images/cropcircle/COVER PAGE.png';
 import cropBrief from '../../assets/images/cropcircle/PROJECT BRIEF.png';
 import cropResearch from '../../assets/images/cropcircle/Market Research.png';
@@ -30,10 +29,6 @@ export default function CropCircle() {
             <div className='main-page'>
                 <BackButton pageTitle={pageTitle} />
                 <main className='main-page__body' id='crop-circle'>
-                    <div >
-                        <img className='main-page__image' src={mockup} alt="mockup" />
-                    </div>
-
                     <div>
                         <div className='content'>
 
@@ -52,10 +47,7 @@ export default function CropCircle() {
                             {<img className='content-image' src={cropProto2} alt="cropcircle - Research" />}
                             
 
-                         
-
-                        
-
+                    
                             <section>
                                 <h2>Development</h2>
                                 <p>
@@ -64,11 +56,11 @@ export default function CropCircle() {
                                
 
                                 <div className='content__box'>
-                                    <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/NamMEkQC9U6BPTwPkt0qiH/Summative-3.0---Bookwork?type=design&node-id=68-934&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A82&show-proto-sidebar=1&mode=design">Figma Report</a>
+                                    <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/NamMEkQC9U6BPTwPkt0qiH/Summative-3.0---Bookwork?type=design&node-id=68-934&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A82&show-proto-sidebar=1&mode=design">Figma Report</a>
 
-                                       <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/uO9QfCLfT9GqZHQvvIGsTQ/DESIGN-FILES?page-id=0%3A1&type=design&node-id=80-1893&viewport=-254%2C684%2C0.07&scaling=min-zoom&starting-point-node-id=80%3A1893&show-proto-sidebar=1&mode=design">Figma Prototype</a>
+                                       <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/uO9QfCLfT9GqZHQvvIGsTQ/DESIGN-FILES?page-id=0%3A1&type=design&node-id=80-1893&viewport=-254%2C684%2C0.07&scaling=min-zoom&starting-point-node-id=80%3A1893&show-proto-sidebar=1&mode=design">Figma Prototype</a>
                                     
-                                    <a className='btn project-btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/CropCircle.git">GitHub Repository</a>
+                                    <a className='btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/CropCircle.git">GitHub Repository</a>
                                 </div>
                             </section>
                         </div>

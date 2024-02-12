@@ -17,7 +17,7 @@ const Resume = () => {
 
             <main className='wrapper'>
                 <div className='resume'>
-                    <h1 className='resume-head triangle-steady'> Resume</h1>
+                    {/* <h1 className='resume-head triangle-steady'> Resume</h1> */}
                     <p className='resume-head__p'>This is a short version, please  <a className='resume-a'  href="mailto:allana.m.kennedy@gmail.com" > get in touch </a>  for the full version</p>
 
                     <section className='resume-body'>

@@ -65,13 +65,13 @@ const NataChocolate = () => {
               <section>
            
                 <div className="content__box">
-                  <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=117-1755&scaling=scale-down-width&page-id=117%3A1429&starting-point-node-id=117%3A1755&mode=design">Figma Report</a>
+                  <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=117-1755&scaling=scale-down-width&page-id=117%3A1429&starting-point-node-id=117%3A1755&mode=design">Figma Report</a>
 
-                  <a className='btn project-btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=27-33&viewport=-766%2C231%2C0.33&scaling=contain&starting-point-node-id=27%3A34&show-proto-sidebar=1">Figma Design</a>
+                  <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/GyjW8dG53VSXKKUzyFnGvb/nata-chocolate?type=design&node-id=27-33&viewport=-766%2C231%2C0.33&scaling=contain&starting-point-node-id=27%3A34&show-proto-sidebar=1">Figma Design</a>
 
-                  <a className='btn project-btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/WP-NataChocolate.git">GitHub Repository</a>
+                  <a className='btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/WP-NataChocolate.git">GitHub Repository</a>
 
-                  <a className='btn project-btn' target='blank' rel="noreferrer" href="https://allana.kennedy.yoobeestudent.net/summative/">View</a>
+                  <a className='btn' target='blank' rel="noreferrer" href="https://allana.kennedy.yoobeestudent.net/summative/">View</a>
                 </div>
               </section>
             </div>

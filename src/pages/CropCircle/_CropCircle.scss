@@ -1,81 +1,17 @@
-// CIRCLE
-.circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-
-
-    &__background {
-        background-color: #FFDB59;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40rem;
-        width: 40rem;
-
-        @media (max-width: 1284px) {
-            width: 30rem;
-            height: 30rem;
-        }
-
-        @media (max-width: 1024px) {
-            width: 20rem;
-            height: 20rem;
-        }
-    }
-
-    &__title {
-        font-size: 4.8rem;
-        line-height: 6rem;
-        padding: 3.5rem;
-        text-align: center;
-        text-transform: lowercase;
-    }
-}
-
-
 .content {
-    width: 80%;
+    width: 100%;
     margin: auto;
-
-    h2 {
-        font-size: 2.9rem;
-    }
-
-    h3 {
-        text-transform: uppercase;
-        font-size: 2rem;
-        font-weight: 300;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    &__box {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-    }
-
-    &-image {
-        padding: 2rem 0;
-    }
-
-    section {
-        padding-top: 5rem;
-    }
 }
 
-#crop-circle p { 
-    color: #008148;}
-#crop-circle h3 { 
-    color: #008148;}
+#crop-circle p {
+    color: #008148;
+    font-size: 20px;
+}
+
+#crop-circle h3 {
+    color: #008148;
+}
+
 #crop-circle h2 {
     color: #008148;
 }
@@ -83,4 +19,10 @@
 .project-btn {
     font-size: 12px;
     padding: .5rem 1.5rem;
+}
+
+@media (max-width: 767px) {
+    #crop-circle p {
+        font-size: 18px;
+    }
 }

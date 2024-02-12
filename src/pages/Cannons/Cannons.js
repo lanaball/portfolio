@@ -33,9 +33,8 @@ export default function Cannons() {
 
                         
 
-                            <div className='content__box'>
-                           
-                               
+                            <div className='content__box'>         
+                                <a className='btn' target='__blank' href="https://cannonsforsale.com/">View Site</a>
                             </div>
                         </div>
                     </div>
