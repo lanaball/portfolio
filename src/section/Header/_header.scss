@@ -1,10 +1,12 @@
 /*--------------------   HEADER   -------------------- */
 .hero__wrapper {
-    display: flex;
+    display: grid;
     height: 85dvh;
     width: 100dvw;
     margin: auto;
     padding-top: 1rem;
+    // justify-content: center;
+    align-content: center;
 }
 
 .hero__name {
@@ -25,14 +27,21 @@
 
 .text_primary {
     font-size: var(--fs-32);
-    padding-left: 2em;
-    width: 80%;
+    padding: 0 2em;
+    width: 30em;
     margin: 0;
     letter-spacing: 2px;
 }
 
 
 // RESPONSIVE
+@media (max-width: 1300px) {
+    .text_primary {
+        width: 85%;
+    }
+}
+
+
 @media (max-width: 1025px) {
     .text_primary {
         font-size: var(--fs-32);
@@ -43,7 +52,6 @@
 
 
 @media (max-width: 767px) {
-
     #header .wrapper {
         width: 100%;
         padding: 2rem;
@@ -60,6 +68,13 @@
         font-size: 24px;
         padding-left: 0;
         text-align: center;
+        width: 100%;
+    }
+
+    .triangle-body {
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 }
 
@@ -68,13 +83,15 @@
 $triangle-base: 100px;
 $animation-duration: 20s;
 
+
+
 .triangle-body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     overflow: hidden;
     margin: auto;
-    padding: 2rem 0;
+    padding: 2rem 5rem;
 }
 
 .logo {

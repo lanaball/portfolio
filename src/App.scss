@@ -35,6 +35,11 @@ body {
   font-size: 62.5%;
   overflow-x: hidden;
   overflow-y: scroll;
+  // overflow-y: hidden;
+  -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 body,
@@ -113,6 +118,7 @@ p {
 a,
 li {
   font-size: 1rem;
+  font-family: var(--ff-body);
 }
 
 /* this is for screen reader to navigate to home page */
@@ -130,6 +136,7 @@ li {
   max-width: var(--desktop);
   margin-inline: auto;
   padding: 1rem;
+
 }
 
 
@@ -170,6 +177,7 @@ textarea {
   display: flex;
   color: var(--foreground);
   line-height: inherit;
+  font-family: var(--ff-body);
 }
 
 .btn:hover {
@@ -221,7 +229,6 @@ hr {
   height: 100vh;
   width: 100vw;
   padding-top: 10rem;
-
 
   // BODY
   &__body {

@@ -58,7 +58,7 @@ export default function CropCircle() {
                                 <div className='content__box'>
                                     <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/NamMEkQC9U6BPTwPkt0qiH/Summative-3.0---Bookwork?type=design&node-id=68-934&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A82&show-proto-sidebar=1&mode=design">Figma Report</a>
 
-                                       <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/uO9QfCLfT9GqZHQvvIGsTQ/DESIGN-FILES?page-id=0%3A1&type=design&node-id=80-1893&viewport=-254%2C684%2C0.07&scaling=min-zoom&starting-point-node-id=80%3A1893&show-proto-sidebar=1&mode=design">Figma Prototype</a>
+                                       {/* <a className='btn' target='blank' rel="noreferrer" href="https://www.figma.com/proto/uO9QfCLfT9GqZHQvvIGsTQ/DESIGN-FILES?page-id=0%3A1&type=design&node-id=80-1893&viewport=-254%2C684%2C0.07&scaling=min-zoom&starting-point-node-id=80%3A1893&show-proto-sidebar=1&mode=design">Figma Prototype</a> */}
                                     
                                     <a className='btn' target='blank' rel="noreferrer" href="https://github.com/lanaball/CropCircle.git">GitHub Repository</a>
                                 </div>

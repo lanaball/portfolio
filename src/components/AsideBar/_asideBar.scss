@@ -53,8 +53,8 @@ svg {
         display: flex;
         position: fixed;
         width: 100px;
-        // top: 10%;
-        transform: translateY(100%);
+        top: calc(40%);
+        // transform: translateY(50%);
         flex-direction: column;
         gap: 2.2rem;
         padding: 2rem;

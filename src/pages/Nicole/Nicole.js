@@ -6,7 +6,7 @@ import './_Nicole.scss';
 
 // IMAGES
 import NicoleCover from '../../assets/images/nicole/COVER PAGE.png';
-import NicoleBrief from '../../assets/images/nicole/brief.png';
+import NicoleBrief from '../../assets/images/nicole/brief1.png';
 import NicoleIcons from '../../assets/images/nicole/MOODBOARD.png';
 import NicoleDesigns from '../../assets/images/nicole/FIGMA DESIGN.png';
 import NicoleSite from '../../assets/images/nicole/site design.png';
@@ -27,8 +27,9 @@ export default function Nicole() {
                             <img className='BV-image' src={NicoleCover} alt="" />
                             <img className='BV-image' src={NicoleBrief} alt="" />
                             <img className='BV-image' src={NicoleIcons} alt="" />
+                              <img className='BV-image' src={NicoleSite} alt="" />
                             <img className='BV-image' src={NicoleDesigns} alt="" />
-                            <img className='BV-image' src={NicoleSite} alt="" />
+                          
                             
 
 
